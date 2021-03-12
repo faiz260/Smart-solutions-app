@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bootstrap-overrides .bg-light {
+  background-color: #5b80aee2 !important;
+}
+#bootstrap-overrides .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 0.9em;
+}
+
+#bootstrap-overrides .navbar-light .navbar-brand {
+  color: white;
+}
+
+/* app name */
+#bootstrap-overrides .navbar-brand {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 615px) {
+  #bootstrap-overrides .navbar-brand {
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  #bootstrap-overrides .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  #bootstrap-overrides .nav-link {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 610px) {
+    #bootstrap-overrides .navbar-nav {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  
+/* Smaller sizes */
+@media (max-width: 310px) {
+  #bootstrap-overrides .navbar-brand {
+    font-weight: 900;
+    font-size: 1rem;
+  }
+}
+
+#bootstrap-overrides .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brand-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
