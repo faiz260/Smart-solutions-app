@@ -6,7 +6,7 @@ import "./navbar.css";
 function navbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" fixed="top" variant="light">
-      <Link to="/home">
+      <Link to="/">
         <Navbar.Brand>
           <Navbar.Brand>
             <img

@@ -1,0 +1,95 @@
+.div-wrapper {
+  width: 90%;
+  margin: auto;
+  background-color: hsl(213deg 100% 25%) !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-div {
+  /* border: 1px solid; */
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lottie {
+  /* border: 1px solid !important; */
+  width: 400px !important;
+  height: 400px !important;
+}
+.right-div {
+  /* border: 1px solid; */
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  width: 170px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.cards-div1 {
+  margin-top: 100px;
+}
+.cards-div2 {
+  margin-bottom: 100px;
+  margin-right: 10px;
+}
+.Typo-text {
+  color: white;
+  margin-top: 100px !important;
+  text-align: center;
+  /* border: 1px solid; */
+}
+
+@media (max-width: 915px) {
+  .card {
+    width: 150px;
+    height: 180px;
+  }
+  .lottie {
+    height: 400px !important;
+    width: 400px !important;
+  }
+  .Typo-text {
+    font-size: 3.5rem !important;
+  }
+}
+@media (max-width: 830px) {
+  .div-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    width: 170px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .div-wrapper {
+  }
+  .right-div {
+    flex-direction: column;
+    width: 300px;
+  }
+  .left-div {
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .cards-div2 {
+    margin-right: 0px;
+  }
+  .lottie {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .Typo-text {
+    font-size: 3rem !important;
+    text-overflow: hidden;
+  }
+}
