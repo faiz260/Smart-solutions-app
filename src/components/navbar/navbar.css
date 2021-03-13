@@ -4,10 +4,11 @@
   justify-content: center;
   box-shadow: 2px 1px 9px 1px rgb(77 77 77);
   height: 70px;
+  margin-top: -100px;
 }
 
 #bootstrap-overrides .bg-light {
-  background-color: hsl(213deg 100% 25%)  !important;
+  background-color: hsl(213deg 100% 25%) !important;
 }
 #bootstrap-overrides .navbar-light .navbar-nav .nav-link {
   color: white;
@@ -18,12 +19,18 @@
   color: white;
 }
 
+#bootstrap-overrides .navbar-nav {
+  background-color: hsl(213deg 100% 25%);
+  border-radius: 2%;
+  flex-direction: row;
+}
+
 /* app name */
 #bootstrap-overrides .navbar-brand {
   font-weight: 900;
   font-size: 1.75rem;
 }
-#bootstrap-overrides .navbar-brand img{
+#bootstrap-overrides .navbar-brand img {
   /* box-shadow: 2px 2px 2px 2px grey; */
   border-radius: 50%;
 }
@@ -48,20 +55,22 @@
 }
 
 @media (min-width: 610px) {
-    #bootstrap-overrides .navbar-nav {
-      width: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  #bootstrap-overrides .navbar-nav {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+}
 
-  
 /* Smaller sizes */
 @media (max-width: 310px) {
   #bootstrap-overrides .navbar-brand {
     font-weight: 900;
     font-size: 1rem;
+  }
+  #bootstrap-overrides .navbar-nav {
+    flex-direction: column;
   }
 }
 

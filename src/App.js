@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
-import  { RouterConfig } from './routes'
+import React from "react";
+import { SmoothProvider } from "react-smooth-scrolling";
+import "./App.css";
+import { RouterConfig } from "./routes";
 
 function App() {
   return (
-    <div className="App"> 
-      <RouterConfig/>
-    </div>
+    <SmoothProvider skew={true}>
+      <RouterConfig />
+    </SmoothProvider>
   );
 }
 
