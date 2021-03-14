@@ -1,6 +1,12 @@
 import React from "react";
 import "./screen2.css";
-import { Typography, Paper, Card, CardContent } from "@material-ui/core";
+import {
+  Typography,
+  Paper,
+  Card,
+  CardContent,
+  CardMedia,
+} from "@material-ui/core";
 import Lottie from "react-lottie";
 import animationData from "../../../assets/6209-social-media-service-bps.json";
 
@@ -25,19 +31,95 @@ function screen2() {
       <div className="right-div">
         <div className="cards-div1">
           <Card className="card">
-            <CardContent></CardContent>
+            <CardContent className="card-content">
+              {" "}
+              <CardMedia
+                className="card-media"
+                image="/electronic-back.jpg"
+                title="Contemplative Reptile"
+              />
+              <Typography className="card-typo" variant="h5" component="h2">
+                Heading
+              </Typography>
+              <Typography
+                className="card-typo"
+                variant="body2"
+                component="p"
+                color="textSecondary"
+              >
+                {" "}
+                Lizards are a widespread group of squamate reptiles, with over
+              </Typography>
+            </CardContent>
           </Card>{" "}
           <Card className="card">
-            <CardContent></CardContent>
+            <CardContent className="card-content">
+              {" "}
+              <CardMedia
+                className="card-media"
+                image="/electronic-back.jpg"
+                title="Contemplative Reptile"
+              />
+              <Typography className="card-typo" variant="h5" component="h2">
+                Heading
+              </Typography>
+              <Typography
+                className="card-typo"
+                variant="body2"
+                component="p"
+                color="textSecondary"
+              >
+                {" "}
+                Lizards are a widespread group of squamate reptiles, with over
+              </Typography>
+            </CardContent>
           </Card>{" "}
         </div>
         <div className="cards-div2">
           <Card className="card">
-            <CardContent></CardContent>
+            <CardContent className="card-content">
+              {" "}
+              <CardMedia
+                className="card-media"
+                image="/electronic-back.jpg"
+                title="Contemplative Reptile"
+              />
+              <Typography className="card-typo" variant="h5" component="h2">
+                Heading
+              </Typography>
+              <Typography
+                className="card-typo"
+                variant="body2"
+                component="p"
+                color="textSecondary"
+              >
+                {" "}
+                Lizards are a widespread group of squamate reptiles, with over
+              </Typography>
+            </CardContent>
           </Card>{" "}
           <Card className="card">
-            <CardContent></CardContent>
-          </Card>
+            <CardContent className="card-content">
+              {" "}
+              <CardMedia
+                className="card-media"
+                image="/electronic-back.jpg"
+                title="Contemplative Reptile"
+              />
+              <Typography className="card-typo" variant="h5" component="h2">
+                Heading
+              </Typography>
+              <Typography
+                className="card-typo"
+                variant="body2"
+                component="p"
+                color="textSecondary"
+              >
+                {" "}
+                Lizards are a widespread group of squamate reptiles, with over
+              </Typography>
+            </CardContent>
+          </Card>{" "}
         </div>
       </div>
     </Paper>

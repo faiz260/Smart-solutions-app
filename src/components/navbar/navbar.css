@@ -6,7 +6,13 @@
   height: 70px;
   margin-top: -100px;
 }
-
+/* #bootstrap-overrides .fixed-top {
+  position: fixed !important;
+  top: 0 !important; 
+  right: 0 !important;
+  left: 0 !important;
+  z-index: 1030 !important;
+} */
 #bootstrap-overrides .bg-light {
   background-color: hsl(213deg 100% 25%) !important;
 }

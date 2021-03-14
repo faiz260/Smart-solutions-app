@@ -6,6 +6,8 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .left-div {
@@ -27,11 +29,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .card {
   width: 170px;
-  height: 200px;
+  /* height: 240px; */
   margin-bottom: 10px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+.card-media{
+  height: 100px;
+}
+.card-typo{
+  padding-top: 5px;
 }
 .cards-div1 {
   margin-top: 100px;
@@ -50,7 +64,7 @@
 @media (max-width: 915px) {
   .card {
     width: 150px;
-    height: 180px;
+    /* height: 180px; */
   }
   .lottie {
     height: 400px !important;
@@ -59,6 +73,9 @@
   .Typo-text {
     font-size: 3.5rem !important;
   }
+  .card-media{
+    height: 70px;
+  }
 }
 @media (max-width: 830px) {
   .div-wrapper {
@@ -66,7 +83,7 @@
   }
   .card {
     width: 170px;
-    height: 200px;
+    /* height: 240px; */
     margin-bottom: 10px;
   }
 }
