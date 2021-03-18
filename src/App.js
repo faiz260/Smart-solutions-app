@@ -5,9 +5,9 @@ import { RouterConfig } from "./routes";
 
 function App() {
   return (
-    <SmoothProvider skew={true}>
+    // <SmoothProvider skew={true}>
       <RouterConfig />
-    </SmoothProvider>
+    // </SmoothProvider>
   );
 }
 
