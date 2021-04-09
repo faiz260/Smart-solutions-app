@@ -1,0 +1,13 @@
+.lower_footer{
+    height: 35px;
+    background-color: #5b81ae !important;
+    border-radius: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.lf_typo{
+    color: white !important;
+    cursor: pointer;
+}

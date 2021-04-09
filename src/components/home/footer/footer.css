@@ -1,5 +1,10 @@
+.footer{
+  background-color: #5b81ae;
+}
 .footer_paper {
-  /* height: 400px; */
+  height: 90% !important;
+  width: 98%;
+  margin: auto;
   background-color: #babab9 !important;
   display: flex;
   justify-content: space-between;
@@ -10,8 +15,9 @@
 .div_1{
     display: flex;
     justify-content: space-around;
-    border: solid;
+    align-items: center;
     width: 65%;
+    /* border: 1px solid; */
 }
 
 .footer_right {
@@ -22,6 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: flex-start
 }
 
 .icon{
@@ -30,17 +37,16 @@
 }
 
 .footer_mid {
-  /* border: 1px solid; */
   height: 250px;
   padding: 15px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
 .footer_left {
-  border: 1px solid;
   height: 200px;
   margin: 20px;
   max-width: 300px;
@@ -48,16 +54,13 @@
 
 @media(max-width: 930px){
     .typo{
-        border: solid;
         font-size: 3.50rem !important;
         width: 90%;
     }
     .footer_right{
         width: 80%;
-        border: solid;
     }
     .footer_mid{
-        border: solid;
         width: 80%;
     }
     .footer_paper{
@@ -78,4 +81,25 @@
     .typo{
         font-size: 2rem !important;
     }
+}
+
+@media(max-width: 485px){
+  .div_1{
+    flex-direction: column;
+  }
+  .typo{
+    font-size: 3rem !important;
+  }
+  .footer_mid{
+    margin-top: -50px;
+  }
+}
+
+@media(max-width: 380px){
+  .typo{
+    font-size: 2.5rem !important;
+  }
+  .contact_details{
+    font-size: 1rem ;
+  }
 }
