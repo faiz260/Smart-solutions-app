@@ -11,8 +11,8 @@ function home() {
             <Screen1/>
             <Screen2/>
             <Screen3/>
-            <Footer/>
-            <LowerFooter/>
+            {/* <Footer/>
+            <LowerFooter/> */}
         </div>
     )
 }

@@ -23,14 +23,14 @@ function navbar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="">
-            <Nav.Link>Our Services</Nav.Link>
+          <Link className="nav_links" to="/about">
+            About
           </Link>
-          <Link to="">
-            <Nav.Link>More deets</Nav.Link>
+          <Link className="nav_links" to="">
+            Our Services
           </Link>
-          <Link to="">
-            <Nav.Link>Contact Us</Nav.Link>
+          <Link className="nav_links" to="">
+            Contact Us
           </Link>
         </Nav>
       </Navbar.Collapse>

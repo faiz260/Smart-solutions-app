@@ -35,11 +35,11 @@ function screen2() {
               {" "}
               <CardMedia
                 className="card-media"
-                image="/electronic-back.jpg"
+                image="/plc-automation-systems-500x500.jpg"
                 title="Contemplative Reptile"
               />
               <Typography className="card-typo" variant="h5" component="h2">
-                Heading
+                Industrial solutions
               </Typography>
               <Typography
                 className="card-typo"
@@ -48,7 +48,8 @@ function screen2() {
                 color="textSecondary"
               >
                 {" "}
-                Lizards are a widespread group of squamate reptiles, with over
+                Industrial automation work related to hmi, plc, vfd siemens,
+                allen bradley, fatek, delta.
               </Typography>
             </CardContent>
           </Card>{" "}
@@ -57,11 +58,11 @@ function screen2() {
               {" "}
               <CardMedia
                 className="card-media"
-                image="/electronic-back.jpg"
+                image="/solar-panel.jpeg"
                 title="Contemplative Reptile"
               />
               <Typography className="card-typo" variant="h5" component="h2">
-                Heading
+                Solar Systems
               </Typography>
               <Typography
                 className="card-typo"
@@ -70,7 +71,7 @@ function screen2() {
                 color="textSecondary"
               >
                 {" "}
-                Lizards are a widespread group of squamate reptiles, with over
+                Stand alone system for irragation, farms and homes.
               </Typography>
             </CardContent>
           </Card>{" "}
@@ -81,11 +82,11 @@ function screen2() {
               {" "}
               <CardMedia
                 className="card-media"
-                image="/electronic-back.jpg"
+                image="/echo-sound-system-hd-png-download.png"
                 title="Contemplative Reptile"
               />
               <Typography className="card-typo" variant="h5" component="h2">
-                Heading
+                Sound Systems
               </Typography>
               <Typography
                 className="card-typo"
@@ -103,11 +104,11 @@ function screen2() {
               {" "}
               <CardMedia
                 className="card-media"
-                image="/electronic-back.jpg"
+                image="/automation-home.jpg"
                 title="Contemplative Reptile"
               />
               <Typography className="card-typo" variant="h5" component="h2">
-                Heading
+                Automation
               </Typography>
               <Typography
                 className="card-typo"
@@ -116,7 +117,8 @@ function screen2() {
                 color="textSecondary"
               >
                 {" "}
-                Lizards are a widespread group of squamate reptiles, with over
+                Home automation , water pump automatic filling system for water
+                tank, Automatic generator starter, Motor starting panel.
               </Typography>
             </CardContent>
           </Card>{" "}

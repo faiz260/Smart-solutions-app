@@ -1,0 +1,36 @@
+.about_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about_heading{
+    font-weight: lighter !important;
+    color: white;
+    margin-left: 20px !important;
+    margin-bottom: 50px !important;
+}
+.vision_paper {
+  margin-top: 180px;
+  width: 70%;
+  padding: 10px;
+  text-align: justify;
+  background-color: hsl(213deg 100% 25%) !important;
+}
+.content {
+  line-height: 2rem !important;
+  margin-top: 20px !important;
+  color: white;
+}
+.content_div{
+    width: 90%;
+    margin: auto;
+}
+.content_div > Typography{
+    margin: 100px;
+}
+.owner_paper{
+    height: 200px;    
+    width: 500px;
+    background-color: grey !important;
+}

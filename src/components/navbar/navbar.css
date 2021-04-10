@@ -5,7 +5,13 @@
   box-shadow: 2px 1px 9px 1px rgb(77 77 77);
   height: 70px;
 }
-
+.nav_links{
+  color: white;
+}
+.nav_links:hover{
+  color: white;
+  text-decoration: none;
+}
 #bootstrap-overrides .bg-light {
   background-color: hsl(213deg 100% 25%) !important;
 }
