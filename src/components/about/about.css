@@ -1,14 +1,16 @@
 .about_div {
+  /* height: 2000px; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #babab9 !important;
 }
-.about_heading{
-    font-weight: lighter !important;
-    color: white;
-    margin-left: 20px !important;
-    margin-bottom: 50px !important;
+.about_heading {
+  font-weight: lighter !important;
+  color: white;
+  margin-left: 20px !important;
+  margin-bottom: 50px !important;
 }
 .vision_paper {
   margin-top: 180px;
@@ -16,21 +18,121 @@
   padding: 10px;
   text-align: justify;
   background-color: hsl(213deg 100% 25%) !important;
+  /* background-color: #babab9 !important; */
 }
 .content {
   line-height: 2rem !important;
   margin-top: 20px !important;
   color: white;
 }
-.content_div{
-    width: 90%;
-    margin: auto;
+.content_div {
+  width: 90%;
+  margin: auto;
 }
-.content_div > Typography{
-    margin: 100px;
+.content_div > Typography {
+  margin: 100px;
 }
-.owner_paper{
-    height: 200px;    
-    width: 500px;
-    background-color: grey !important;
+
+.div_2 {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 100px;
+  padding: 0px 20px;
+  background-color: white;
+}
+.owner_paper {
+  height: 70%;
+  width: 30%;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.owner_paper > img {
+  height: 300px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+.owner_des_paper {
+  height: 70%;
+  width: 70%;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.des_content {
+  width: 80%;
+}
+.des_typo {
+  font-size: 1.25rem !important;
+  line-height: 2rem !important;
+}
+
+.rm_link {
+  font-weight: bolder;
+  color: white !important;
+}
+
+.div_3{
+  border: 1px solid;
+  height: 500px;
+  width: 100%;
+  background-color: #5b81ae;
+}
+
+@media (max-width: 610px) {
+  .content {
+    font-size: 0.75rem !important;
+  }
+  .about_heading {
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .about_heading {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 885px) {
+  .div_2 {
+    flex-direction: column;
+  }
+  .owner_paper {
+    width: 100%;
+  }
+  .owner_des_paper {
+    width: 100%;
+  }
+  .des_typo {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .owner_paper > img {
+    height: 250px;
+    width: 200px;
+  }
+  .owner_name{
+    font-size: 2rem !important;
+  }
+}
+
+@media(max-width: 400px){
+  .owner_paper > img {
+    height: 200px;
+    width: 160px;
+  }
+  .owner_name{
+    font-size: 1.70rem !important;
+  }
 }
