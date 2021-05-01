@@ -82,7 +82,9 @@ function About() {
       <div className="div_2">
         <Paper elevation={0} className="owner_paper">
           <img src="/Faiz-front-photo.jpeg" />
-          <Typography variant="h4" className="owner_name">Faiz Shahnawaz</Typography>
+          <Typography variant="h4" className="owner_name">
+            Faiz Shahnawaz
+          </Typography>
           <Typography variant="subtitle1">Owner Smart Solutions</Typography>
         </Paper>
         <Paper elevation={0} className="owner_des_paper">
@@ -97,7 +99,53 @@ function About() {
         </Paper>
       </div>
       <div className="div_3">
-                
+        <Typography variant="h2" className="div_3_typo">
+          Our Services
+        </Typography>
+        <div className="services_div">
+          <div className="services_div_child">
+            <div className="product_div">
+              <Typography variant="h5" className="product_heading">
+                Industrial solutions
+              </Typography>
+              <div className="typo_gap"></div>
+              <Typography variant="body2" className="product_typo">
+                Industrial automation work related to hmi, plc, vfd siemens,
+                allen bradley, fatek, delta.{" "}
+              </Typography>
+            </div>
+            <div className="product_div">
+              <Typography variant="h5" className="product_heading">
+                Solar Systems
+              </Typography>
+              <div className="typo_gap"></div>
+              <Typography variant="body2" className="product_typo">
+                Stand alone system for irragation, farms and homes.{" "}
+              </Typography>
+            </div>
+          </div>
+          <div className="services_div_child">
+            <div className="product_div">
+              <Typography variant="h5" className="product_heading">
+                Sound Systems
+              </Typography>
+              <div className="typo_gap"></div>
+              <Typography variant="body2" className="product_typo">
+                Lizards are a widespread group of squamate reptiles, with over{" "}
+              </Typography>
+            </div>
+            <div className="product_div">
+              <Typography variant="h5" className="product_heading">
+                Automation
+              </Typography>
+              <div className="typo_gap"></div>
+              <Typography variant="body2" className="product_typo">
+                Home automation , water pump automatic filling system for water
+                tank, Automatic generator starter, Motor starting panel.{" "}
+              </Typography>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

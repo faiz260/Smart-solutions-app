@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { Paper, Typography } from "@material-ui/core";
+import { Link, Paper, Typography } from "@material-ui/core";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -31,21 +31,31 @@ function footer() {
               <span className="contact_details">03462734212</span>
             </Typography>
             <Typography variant="h6" component="h6">
-              <EmailIcon className="icon" />
+              <EmailIcon className="icon" />{" "}
               <span className="contact_details">email@gmail.com</span>
             </Typography>
           </div>
           <div className="footer_mid">
             <Typography variant="h6" component="h6">
-              <FacebookIcon className="icon" fontSize="large" />
+              <Link
+                target="_blank"
+                href="https://www.facebook.com/M.faiz.raza.21"
+              >
+                {" "}
+                <FacebookIcon className="icon" fontSize="large" />
+              </Link>
               <span className="contact_details"> email@gmail.com </span>
             </Typography>
             <Typography variant="h6" component="h6">
-              <YouTubeIcon className="icon" fontSize="large" />
+              <Link target="_blank" href="https://www.youtube.com">
+                <YouTubeIcon className="icon" fontSize="large" />
+              </Link>
               <span className="contact_details"> email@gmail.com </span>
             </Typography>
             <Typography variant="h6" component="h6">
-              <InstagramIcon className="icon" fontSize="large" />
+              <Link target="_blank" href="https://www.instagram.com">
+                <InstagramIcon className="icon" fontSize="large" />
+              </Link>
               <span className="contact_details"> email@gmail.com </span>
             </Typography>
           </div>

@@ -34,6 +34,8 @@
 .icon{
   display: flex;
   margin-right: 10px;
+  color: black;
+  cursor: pointer;
 }
 
 .footer_mid {
