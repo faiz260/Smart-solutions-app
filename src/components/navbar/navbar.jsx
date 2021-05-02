@@ -26,7 +26,7 @@ function navbar() {
           <Link className="nav_links" to="/about">
             About
           </Link>
-          <Link className="nav_links" to="">
+          <Link className="nav_links" to="/our-services">
             Our Services
           </Link>
           <Link className="nav_links" to="">

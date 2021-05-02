@@ -1,0 +1,29 @@
+.services_div{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: column !important;
+    padding-bottom: 100px;
+}
+.service{
+    height: 250px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.service > img{
+    max-width: 250px;
+    height: 80%;
+}
+.service_content{
+    /* border: 1px solid; */
+    height: 90%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

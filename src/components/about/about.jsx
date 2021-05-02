@@ -16,12 +16,12 @@ function About() {
             <div>
               {readMore ? (
                 <Typography variant="subtitle1" className="content">
-                  Welcome to [SHOP NAME]! We aim to offer our customers a
-                  variety of the latest [PRODUCTS CATEGORY NAME]. We’ve come a
-                  long way, so we know exactly which direction to take when
-                  supplying you with high q uality yet budget-friendly products.
-                  We offer all of this while providing excellent customer
-                  service and friendly support.
+                  Welcome to Smart Solutions! We aim to offer our customers a
+                  variety of the latest and smartest services. We’ve come a long
+                  way, so we know exactly which direction to take when supplying
+                  you with high quality yet budget-friendly services. We offer
+                  all of this while providing excellent customer service and
+                  friendly support.
                   <Link className="rm_link" onClick={() => setReadMore(false)}>
                     Read More
                   </Link>
@@ -29,19 +29,17 @@ function About() {
               ) : (
                 <div>
                   <Typography variant="subtitle1" className="content">
-                    Welcome to [SHOP NAME]! We aim to offer our customers a
-                    variety of the latest [PRODUCTS CATEGORY NAME]. We’ve come a
+                    Welcome to Smart Solutions! We aim to offer our customers a
+                    variety of the latest and smartest services. We’ve come a
                     long way, so we know exactly which direction to take when
                     supplying you with high quality yet budget-friendly
-                    products. We offer all of this while providing excellent
+                    services. We offer all of this while providing excellent
                     customer service and friendly support.
                   </Typography>
                   <Typography variant="subtitle1" className="content">
-                    We always keep an eye on the latest trends in [PRODUCTS
-                    CATEGORY NAME] and put our customers’ wishes first. That is
-                    why we have satisfied customers all over the world, and are
-                    thrilled to be a part of the [PRODUCTS CATEGORY NAME]
-                    industry.{" "}
+                    We always keep an eye on the latest trends in industry and
+                    put our customers’ wishes first. That is why we have
+                    satisfied customers all over the country.{" "}
                   </Typography>
                   <Typography variant="subtitle1" className="content">
                     The interests of our customers are always top priority for
@@ -57,18 +55,17 @@ function About() {
           ) : (
             <div>
               <Typography variant="subtitle1" className="content">
-                Welcome to [SHOP NAME]! We aim to offer our customers a variety
-                of the latest [PRODUCTS CATEGORY NAME]. We’ve come a long way,
-                so we know exactly which direction to take when supplying you
-                with high quality yet budget-friendly products. We offer all of
-                this while providing excellent customer service and friendly
+                Welcome to Smart Solutions! We aim to offer our customers a
+                variety of the latest and smartest services. We’ve come a long
+                way, so we know exactly which direction to take when supplying
+                you with high quality yet budget-friendly services. We offer all
+                of this while providing excellent customer service and friendly
                 support.
               </Typography>
               <Typography variant="subtitle1" className="content">
-                We always keep an eye on the latest trends in [PRODUCTS CATEGORY
-                NAME] and put our customers’ wishes first. That is why we have
-                satisfied customers all over the world, and are thrilled to be a
-                part of the [PRODUCTS CATEGORY NAME] industry.{" "}
+                We always keep an eye on the latest trends in industry and put
+                our customers’ wishes first. That is why we have satisfied
+                customers all over the country.{" "}
               </Typography>
               <Typography variant="subtitle1" className="content">
                 The interests of our customers are always top priority for us,

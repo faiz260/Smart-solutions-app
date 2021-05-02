@@ -1,5 +1,4 @@
 .about_div {
-  /* height: 2000px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +10,7 @@
   color: white;
   margin-left: 20px !important;
   margin-bottom: 50px !important;
+  text-shadow: 1px 1px 1px rgb(28, 28, 28);
 }
 .vision_paper {
   margin-top: 180px;
@@ -18,13 +18,12 @@
   padding: 10px;
   text-align: justify;
   background-color: #5b81ae !important;
-  /* background-color: hsl(213deg 100% 25%) !important; */
-  /* background-color: #babab9 !important; */
 }
 .content {
   line-height: 2rem !important;
   margin-top: 20px !important;
   color: white;
+  text-shadow: 1px 1px 1px rgb(28, 28, 28);
 }
 .content_div {
   width: 90%;
@@ -101,9 +100,10 @@
   width: 100%;
   background-color: #5b81ae;
   margin-top: 80px;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-around;
+  flex-direction: row !important;
 }
 .services_div_child {
   /* border: 1px solid; */
@@ -115,7 +115,6 @@
 .product_div {
   /* border: 1px solid; */
   height: 250px;
-  /* max-width: 280px; */
   width: 40%;
   padding: 10px;
   text-align: justify;
@@ -134,8 +133,6 @@
 .typo_gap {
   margin-bottom: 20px;
 }
-
-
 
 @media (max-width: 560px) {
   .owner_paper > img {
@@ -193,7 +190,7 @@
     margin-top: -100px !important;
   }
   .services_div {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .services_div_child {
     width: 100%;
@@ -218,7 +215,7 @@
   .owner_name {
     font-size: 1.7rem !important;
   }
-  .des_typo{
+  .des_typo {
     font-size: 0.85rem !important;
   }
 }

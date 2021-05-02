@@ -24,7 +24,7 @@ function screen2() {
     <Paper elevation={3} className="div-wrapper">
       <div className="left-div">
         <Typography variant="h2" className="Typo-text">
-          Here's What We Offering
+          Here's What We Offer
         </Typography>
         <Lottie options={defaultOptions} className="lottie" />
       </div>

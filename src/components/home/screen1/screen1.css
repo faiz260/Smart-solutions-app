@@ -30,7 +30,7 @@
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 .Typo1 {
-  font-weight: 900;
+  font-weight: 200 !important;
 }
 @keyframes typing {
   from {
@@ -67,6 +67,18 @@
   margin-top: 20px !important;
   padding: 10px 40px !important ;
   font-size: large !important;
+  text-decoration: none;
+}
+.button_link{
+  color: hsl(213deg 100% 25%)
+}
+.button_link::hover{
+  text-decoration: none !important;
+  color: hsl(213deg 100% 25%)
+}
+a:hover {
+  color: hsl(211deg 100% 35%);
+  text-decoration: none !important;
 }
 .MuiButton-outlined {
   border: 1px solid hsl(213deg 100% 25%) !important;
