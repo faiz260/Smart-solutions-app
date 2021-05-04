@@ -29,7 +29,7 @@ function navbar() {
           <Link className="nav_links" to="/our-services">
             Our Services
           </Link>
-          <Link className="nav_links" to="">
+          <Link className="nav_links" to="/contact-us">
             Contact Us
           </Link>
         </Nav>

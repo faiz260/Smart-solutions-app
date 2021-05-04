@@ -10,6 +10,8 @@ import Solar from "./components/ourServices/solar";
 import Automation from "./components/ourServices/automation";
 import Industry from "./components/ourServices/industry";
 import Sound from "./components/ourServices/sound";
+import ServicesIndex from "./components/ourServices/servicesIndex";
+import Contact from "./components/contact/Contact";
 
 export const RouterConfig = () => {
   return (
@@ -18,15 +20,14 @@ export const RouterConfig = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/our-services" element={<Services />}></Route>
-        <Route path="/our-services/industry-solutions" element={<Industry />} />
-        <Route path="/solar-panels" element={<Solar />} />
-        <Route path="/our-services/automation " element={<Automation />} />
-        <Route path="/our-services/sound-systems" element={<Sound />} />
-        {/* <Route exact path="/products" element={}>
-          <Route path="/" element={} />
-          <Route path=":slug" element={} />
-        </Route> */}
+        <Route path="/our-services" element={<Services />}>
+          <Route path="/" element={<ServicesIndex />} />
+          <Route path=":sound-systems" element={<Sound />} />
+          <Route path=":solar-panels" element={<Solar />} />
+          <Route path=":industrial-solutions" element={<Industry />} />
+          <Route path=":automation" element={<Automation />} />
+        </Route>
+        <Route path="/contact-us" element={<Contact />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
