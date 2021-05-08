@@ -7,7 +7,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Lottie from "react-lottie";
-import animationData from "../../../assets/27620-contact-us.json";
+import animationData from "../../assets/27620-contact-us.json";
 
 function footer() {
   const defaultOptions = {
@@ -28,35 +28,46 @@ function footer() {
             </Typography>
             <Typography variant="h6" component="h6">
               <PhoneIcon className="icon" />
-              <span className="contact_details">03462734212</span>
+              <span className="contact_details">0321 2326812</span>
             </Typography>
             <Typography variant="h6" component="h6">
               <EmailIcon className="icon" />{" "}
-              <span className="contact_details">email@gmail.com</span>
+              <span className="contact_details">
+                smartsolutionsunofficial@gmail.com
+              </span>
             </Typography>
           </div>
           <div className="footer_mid">
             <Typography variant="h6" component="h6">
               <Link
                 target="_blank"
-                href="https://www.facebook.com/M.faiz.raza.21"
+                href="https://www.facebook.com/smartsolutionsunofficial/"
               >
                 {" "}
                 <FacebookIcon className="icon" fontSize="large" />
               </Link>
-              <span className="contact_details"> email@gmail.com </span>
+              <span className="contact_details">
+                {" "}
+                /smartsolutionsunofficial{" "}
+              </span>
             </Typography>
-            <Typography variant="h6" component="h6">
+            {/* <Typography variant="h6" component="h6">
               <Link target="_blank" href="https://www.youtube.com">
                 <YouTubeIcon className="icon" fontSize="large" />
               </Link>
               <span className="contact_details"> email@gmail.com </span>
-            </Typography>
+            </Typography> */}
             <Typography variant="h6" component="h6">
-              <Link target="_blank" href="https://www.instagram.com">
+              <Link
+                target="_blank"
+                href="https://www.instagram.com/smartsolutionsunofficial/"
+              >
                 <InstagramIcon className="icon" fontSize="large" />
               </Link>
-              <span className="contact_details"> email@gmail.com </span>
+              <span className="contact_details">
+                {" "}
+                /smartsolutionsunofficial{" "}
+              </span>
             </Typography>
           </div>
         </div>
