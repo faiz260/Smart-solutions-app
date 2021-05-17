@@ -109,4 +109,13 @@
   .cu_typo {
     font-size: 3rem !important;
   }
+  .contact{
+    margin-top: 0px;
+  }
+  .MuiTypography-h6 {
+    font-size: 1rem !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 0.85rem !important;
+  }
 }

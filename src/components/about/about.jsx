@@ -96,10 +96,13 @@ function About() {
           <Paper elevation={0} className="owner_des_paper">
             <div className="des_content">
               <Typography variant="body2" className="des_typo">
-                "We always keep an eye on the latest trends in [PRODUCTS
-                CATEGORY NAME] and put our customers’ wishes first. That is why
-                we have satisfied customers all over the world, and are thrilled
-                to be a part of the [PRODUCTS CATEGORY NAME] industry."{" "}
+                <em>
+                  "We always keep an eye on the latest trends in [PRODUCTS
+                  CATEGORY NAME] and put our customers’ wishes first. That is
+                  why we have satisfied customers all over the world, and are
+                  thrilled to be a part of the [PRODUCTS CATEGORY NAME]
+                  industry."{" "}
+                </em>
               </Typography>
             </div>
           </Paper>

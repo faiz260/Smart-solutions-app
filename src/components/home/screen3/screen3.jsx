@@ -13,10 +13,14 @@ function screen3() {
             className="profile-pic"
             roundedCircle
           />
-          <Typography variant="h5" className="name">Faiz Shahnawaz</Typography>
+          <Typography variant="h5" className="name">
+            Faiz Shahnawaz
+          </Typography>
           <Typography variant="body1" className="details">
-            " Lorem Ipsumn doner Lizards are a widespread group of squamate
-            reptiles, with over reptiles, with over "
+            <em>
+              " Lorem Ipsumn doner Lizards are a widespread group of squamate
+              reptiles, with over reptiles, with over "
+            </em>
           </Typography>
         </Paper>
       </div>

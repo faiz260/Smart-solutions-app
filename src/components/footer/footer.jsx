@@ -51,12 +51,12 @@ function footer() {
                 /smartsolutionsunofficial{" "}
               </span>
             </Typography>
-            {/* <Typography variant="h6" component="h6">
+            <Typography variant="h6" component="h6">
               <Link target="_blank" href="https://www.youtube.com">
                 <YouTubeIcon className="icon" fontSize="large" />
               </Link>
               <span className="contact_details"> email@gmail.com </span>
-            </Typography> */}
+            </Typography>
             <Typography variant="h6" component="h6">
               <Link
                 target="_blank"

@@ -1,4 +1,4 @@
-.footer{
+.footer {
   background-color: #5b81ae;
 }
 .footer_paper {
@@ -12,12 +12,12 @@
   padding: 5px !important;
 }
 
-.div_1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
-    /* border: 1px solid; */
+.div_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+  /* border: 1px solid; */
 }
 
 .footer_right {
@@ -28,10 +28,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
-.icon{
+.icon {
   display: flex;
   margin-right: 10px;
   color: black;
@@ -39,6 +39,7 @@
 }
 
 .footer_mid {
+  /* border: 1px solid; */
   height: 250px;
   padding: 15px;
   margin-top: 50px;
@@ -54,54 +55,57 @@
   max-width: 300px;
 }
 
-@media(max-width: 930px){
-    .typo{
-        font-size: 3.50rem !important;
-        width: 90%;
-    }
-    .footer_right{
-        width: 80%;
-    }
-    .footer_mid{
-        width: 80%;
-    }
-    .footer_paper{
-        flex-direction: column;
-    }
-    .div_1{
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .footer_left {
-        height: 200px;
-        max-width: 800px;
-      }
-}
-
-@media(max-width: 751px){
-    .typo{
-        font-size: 2rem !important;
-    }
-}
-
-@media(max-width: 485px){
-  .div_1{
+@media (max-width: 930px) {
+  .typo {
+    font-size: 3.5rem !important;
+    width: 90%;
+  }
+  .footer_right {
+    width: 80%;
+  }
+  .footer_mid {
+    width: 80%;
+  }
+  .footer_paper {
     flex-direction: column;
   }
-  .typo{
+  .div_1 {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .footer_left {
+    height: 200px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 751px) {
+  .typo {
+    font-size: 2rem !important;
+  }
+  .div_1 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 485px) {
+  .div_1 {
+    flex-direction: column;
+  }
+  .typo {
     font-size: 3rem !important;
   }
-  .footer_mid{
+  .footer_mid {
     margin-top: -50px;
   }
 }
 
-@media(max-width: 380px){
-  .typo{
+@media (max-width: 380px) {
+  .typo {
     font-size: 2.5rem !important;
   }
-  .contact_details{
-    font-size: 1rem ;
+  .contact_details {
+    font-size: 1rem;
   }
 }

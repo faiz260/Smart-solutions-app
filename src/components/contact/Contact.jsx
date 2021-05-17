@@ -65,7 +65,7 @@ function Contact() {
 
         <div className="div2">
           <div className="contact_us">
-            <Typography className="cu_typo">
+            <Typography variant="h5" className="cu_typo">
               Contact Us
             </Typography>
           </div>
