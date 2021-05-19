@@ -10,6 +10,7 @@ function screen3() {
         <Paper elevation={3} className="portfolio-div">
           <Image
             src="Faiz-front-photo.jpeg"
+            alt="owner_picture"
             className="profile-pic"
             roundedCircle
           />

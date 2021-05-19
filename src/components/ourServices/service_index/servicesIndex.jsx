@@ -8,6 +8,24 @@ function ServicesIndex() {
     <div className="services_div">
       <Paper elevation={3} className="service">
         <div className="service_content">
+          <Link to="/our-services/arduino">
+            <Typography variant="h2" className="product_head">
+              Arduino
+            </Typography>
+          </Link>
+          <Typography variant="body1" className="product_des">
+            Industrial automation work related to hmi, plc, vfd siemens, allen
+            bradley, fatek, delta. Industrial automation work related to hmi,
+            plc, vfd siemens, allen bradley, fatek, delta. Industrial automation
+            work related to hmi, plc, vfd siemens, allen bradley, fatek, delta.{" "}
+            <Link to="/our-services/automation">Learn More</Link>
+          </Typography>
+        </div>{" "}
+        <img src="/plc-automation-systems-500x500.jpg" alt="" />
+      </Paper>
+
+      <Paper elevation={3} className="service">
+        <div className="service_content">
           <Link to="/our-services/solar-panels">
             <Typography variant="h2" className="product_head">
               Solar Panels
@@ -47,24 +65,6 @@ function ServicesIndex() {
           <Link to="/our-services/industrial-solutions">
             <Typography variant="h2" className="product_head">
               {" "}
-              Industrial solutions
-            </Typography>
-          </Link>
-          <Typography variant="body1" className="product_des">
-            Industrial automation work related to hmi, plc, vfd siemens, allen
-            bradley, fatek, delta. Industrial automation work related to hmi,
-            plc, vfd siemens, allen bradley, fatek, delta. Industrial automation
-            work related to hmi, plc, vfd siemens, allen bradley, fatek, delta.{" "}
-            <Link to="/our-services/industrial-solutions">Learn More</Link>
-          </Typography>
-        </div>{" "}
-        <img src="/automation-home.jpg" alt="" />
-      </Paper>
-
-      <Paper elevation={3} className="service">
-        <div className="service_content">
-          <Link to="/our-services/automation">
-            <Typography variant="h2" className="product_head">
               Automation
             </Typography>
           </Link>
@@ -76,7 +76,7 @@ function ServicesIndex() {
             <Link to="/our-services/automation">Learn More</Link>
           </Typography>
         </div>{" "}
-        <img src="/plc-automation-systems-500x500.jpg" alt="" />
+        <img src="/automation-home.jpg" alt="" />
       </Paper>
     </div>
   );

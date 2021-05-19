@@ -25,7 +25,7 @@ function screen1() {
           </Link>
         </div>
         <div className="logo-div">
-          <img src="/logo3.png" className="logo" />
+          <img src="/logo3.png" alt="logo" className="logo" />
         </div>
       </div>
     </div>

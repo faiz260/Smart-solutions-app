@@ -6,11 +6,12 @@ import About from "./components/about/about";
 import Services from "./components/ourServices/services";
 import Solar from "./components/ourServices/solar/solar";
 import Automation from "./components/ourServices/automation/automation";
-import Industry from "./components/ourServices/industry/industry";
+import Arduino from "./components/ourServices/arduino/arduino";
 import Sound from "./components/ourServices/sound/sound";
 import ServicesIndex from "./components/ourServices/service_index/servicesIndex";
 import Contact from "./components/contact/Contact";
 import NotFound from "./components/notFound/NotFound";
+import {ArduinoIndex} from "./components/ourServices/arduino/arduinoIndex";
 
 export const RouterConfig = () => {
   return (
@@ -23,7 +24,9 @@ export const RouterConfig = () => {
           <Route path="/" element={<ServicesIndex />} />
           <Route path=":sound-systems" element={<Sound />} />
           <Route path=":solar-panels" element={<Solar />} />
-          <Route path=":industrial-solutions" element={<Industry />} />
+          <Route path=":arduino" element={<Arduino />}>
+            <Route path="/" element={<ArduinoIndex />} />
+          </Route>
           <Route path=":automation" element={<Automation />} />
         </Route>
         <Route path="/contact-us" element={<Contact />} />

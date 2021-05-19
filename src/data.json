@@ -1,0 +1,128 @@
+{
+  "Arduino 4 Relay Shield": {
+    "name": "Arduino 4 Relay Shield",
+    "price": "$23",
+    "img": "/Images/ARDUINO 4 RELAYS SHIELD.jpg",
+    "des": "The Arduino 4 Relays Shield is a solution for driving high power loads that cannot be controlled by Arduino's digital IOs, due to the current and voltage limits of the controller. The Shield features four relays, each relay provides 2 pole changeover contacts (NO and NC); in order to increase the current limit of each output the 2 changeover contacts have been put in parallel. Four LEDs indicate the on/off state of each relay."
+  },
+  "Arduino MKR ENV Shield": {
+    "name": "Arduino MKR ENV Shield",
+    "price": "$34",
+    "img": "/Images/ARDUINO MKR ENV SHIELD.jpg",
+    "des": "The MKR ENV Shield allows a MKR board to acquire environmental data collected by an array of sensors. These sensors are of the latest generation and measure: Atmospheric pressure, Temperature and humidity, Ultraviolet UVA intensity Ultraviolet UVB intensity, UV Index (calculated), Light intensity (in LUX).To help you build projects and store the data collected locally, this shield has a slot for a microSD card (not provided). There is a ready to use library with examples and methods to read values from the different sensors, that provides an easy and smooth integration path."
+  },
+  "Arduino MKR Motor Carrier": {
+    "name": "Arduino MKR Motor Carrier",
+    "price": "$56.40",
+    "img": "/Images/ARDUINO MKR MOTOR CARRIER.jpg",
+    "des": "The MKR Motor Carrier is an MKR add-on board designed to control servo, DC, and stepper motors. The Carrier can also be used to connect other actuators and sensors via a series of 3-pin male headers."
+  },
+  "ARDUINO ETHERNET SHIELD 2": {
+    "name": "ARDUINO ETHERNET SHIELD 2",
+    "price": "$24.80",
+    "img": "/Images/Arduino_Ethernet_Shield_2.jpg",
+    "des": "The Arduino Ethernet Shield 2 connects your Arduino to the internet in mere minutes. Just plug this module onto your Arduino Board, connect it to your network with an RJ45 cable (not included) and follow a few simple steps to start controlling your world through the internet. As always with Arduino, every element of the platform – hardware, software and documentation – is freely available and open-source. This means you can learn exactly how it's made and use its design as the starting point for your own circuits. Hundreds of thousands of Arduino Boards are already fueling people’s creativity all over the world, everyday. Join us now, Arduino is you! "
+  },
+  "ARDUINO MEGA PROTO SHIELD REV3 (PCB)": {
+    "name": "ARDUINO MEGA PROTO SHIELD REV3 (PCB)",
+    "price": "$5.00",
+    "img": "/Images/Arduino_Mega_Proto_Shield_Rev3(PCB).jpg",
+    "des": "The Arduino Prototyping Shield makes it easy for you to design custom circuits. You can solder parts to the prototyping area to create your project,or use it with a small solderless breadboard (not included) to quickly test circuit ideas without having to solder. It's got extra connections for all of the Arduino MEGA I/O pins, and it's got space to mount through-hole and surface mount integrated circuits. It's a convenient way to make your custom Arduino circuit into a single module."
+  },
+  "ARDUINO MKR CAN SHIELD": {
+    "name": "ARDUINO MKR CAN SHIELD",
+    "price": "$32.10",
+    "img": "/Images/Arduino_MKR_CAN_Shield.jpg",
+    "des": "With this shield you can easily connect to a CAN (Controller Area Network) Bus. Discover new possibilities of interaction between your Arduino MKR Board and the CAN ecosystem. The MKR CAN shield can simplify the connection of the MKR boards with industrial systems and especially with automotive applications. This shield opens a new set of possible applications like smart vehicles, autonomous cars and drones. A CAN connection also provides the possibility to connect a MKR board directly with several types of industrial grade sensors, motors and displays."
+  },
+  "ARDUINO MKR CONNECTOR CARRIER (GROVE COMPATIBLE)": {
+    "name": "ARDUINO MKR CONNECTOR CARRIER (GROVE COMPATIBLE)",
+    "price": "$19.50",
+    "img": "/Images/Arduino_MKR_Connector_Carrier(Groove_Compatible).jpg",
+    "des": "Do you have several components to connect to your project and would rather use connectors instead of soldering? The Arduino MKR CONNECTOR CARRIER provides Seeed Studio's Grove connectors to your MKR board. The MKR CONNECTOR CARRIER shield is an essential tool for rapidly prototyping activity. It allows you to connect easily and quickly sensors with Grove connectors. This shield can allow you to build applications with different IoT connectivities by simply changing the MKR board and with almost no changes to the code."
+  },
+  "ARDUINO MKR ENV SHIELD REV2": {
+    "name": "ARDUINO MKR ENV SHIELD REV2",
+    "price": "$34.40",
+    "img": "/Images/Arduino_MKR_ENV_Shield_rev2.jpg",
+    "des": "These sensors are of the latest generation and measure: Atmospheric pressure, Temperature and humidity, Light intensity (in LUX). To help you build projects and store the data collected locally, this shield has a slot for a microSD card (not provided). There is a ready to use library with examples and methods to read values from the different sensors, that provides an easy and smooth integration path."
+  },
+  "ARDUINO MKR ETH SHIELD": {
+    "name": "ARDUINO MKR ETH SHIELD",
+    "price": "$26.40",
+    "img": "/Images/Arduino_MKR_ETH_Shield.jpg",
+    "des": "Are you developing a project for an environment where wireless connections are unavailable or would be inefficient? The MKR ETH shield allows to have a wired Ethernet connection between your MKR board and your network or the Internet. This is particularly useful for devices located where either electromagnetic noise is a problem or there are special safety requirements."
+  },
+  "ARDUINO MKR GPS SHIELD": {
+    "name": "ARDUINO MKR GPS SHIELD",
+    "price": "$33.40",
+    "img": "/Images/Arduino_MKR_GPS_shield.jpg",
+    "des": "If you are experimenting with monitoring fleets, high-altitude scientific experiments, or any kind of project requiring localization of devices, the MKR GPS Shield will offer you the functionality you need, and it is plug 'n' play! The MKR GPS Shield is based on the u-blox SAM-M8Q GNSS (Global Navigation Satellite System) module. It is meant to be used on top of boards in the MKR format, but thanks to its Eslov connector, it is also possible to hook it up to any board having that kind of connector available using a cable. This module is designed to operate with different positioning services concurrently. It receives and processes the signals from GPS, GLONASS, and Galileo. It interfaces with Arduino boards either through a serial interface, when used with headers and put on top of a MKR board, or through an I2C interface and a dedicated ESLOV cable supplied as bundle."
+  },
+  "ARDUINO MKR IMU SHIELD": {
+    "name": "ARDUINO MKR IMU SHIELD",
+    "price": "$25.00",
+    "img": "/Images/Arduino_MKR_IMU_Shield.jpg",
+    "des": "The MKR IMU Shield is based on the BNO055 absolute orientation sensor from Bosch Sensortec GmbH which integrates a triaxial 14-bit accelerometer, a triaxial 16-bit gyroscope with a range of ±2000 degrees per second and a triaxial geomagnetic sensor with a 32-bit microcontroller running the BSX3.0 FusionLib software. The sensor features three-dimensional acceleration, yaw rate and magnetic field strength data each in 3 perpendicular axes."
+  },
+  "ARDUINO MKR MEM SHIELD": {
+    "name": "ARDUINO MKR MEM SHIELD",
+    "price": "$19.50",
+    "img": "/Images/Arduino_MKR_Mem_Sheild.jpg",
+    "des": "The Arduino MKR MEM shield will allow you to add more flash memory and storage. It provides 2-megabytes of flash memory. It also includes a slot for adding a microSD card to store several gigabytes of storage. This can allow you to store data for later analysis."
+  },
+  "ARDUINO MKR RGB SHIELD": {
+    "name": "ARDUINO MKR RGB SHIELD",
+    "price": "$44.90",
+    "img": "/Images/Arduino_MKR_RGB_shield.jpg",
+    "des": "Write messages and add graphics with this shield. A ready to use library with examples and methods is available for use to easily write static and scrollable text. You can use this shield to show values from your board and is controllable from the Arduino IoT cloud. No need of solder, or special adapters, just plug the RGB matrix shield on top of your favourite MKR board and you are ready to go! The mounted LED's are very dense and bright, with full RGB colours!"
+  },
+  "ARDUINO MKR THERM SHIELD": {
+    "name": "ARDUINO MKR THERM SHIELD",
+    "price": "$44.90",
+    "img": "/Images/Arduino_MKR_Therm_Shield.jpg",
+    "des": "The MKR THERM Shield allows a board of the MKR family to acquire temperatures from a thermocouple of type K and a DS18Bxx digital one wire sensor. The Thermocouple is a kind of temperature sensor that offers high accuracy and a wide range of measured temperatures. Its analog nature requires specific interfacing and this shield relies on the MAX31855 thermocouple digital interface. The two connectors of the MKR THERM Shield allow the usage of Type K thermocouples with or without a plug attached to the metal wires."
+  },
+  "ARDUINO PORTENTA BREAKOUT": {
+    "name": "ARDUINO PORTENTA BREAKOUT",
+    "price": "$45.99",
+    "img": "/Images/Arduino_Portenta_breakout.jpg",
+    "des": "Arduino Portenta Breakout board is designed to help hardware engineers and makers to prototype and help test devices connections and capacity within the Portenta family boards (e.g. the Portenta H7). It makes all high-density connectors’ signals individually accessible, making it quick and easy to connect and test external hardware components and devices as normally needed during development in the lab."
+  },
+  "ARDUINO PORTENTA VISION SHIELD - ETHERNET": {
+    "name": "ARDUINO PORTENTA VISION SHIELD - ETHERNET",
+    "price": "$47.15",
+    "img": "/Images/Arduino_Portenta_Vision_Shield_Ethernet.jpg",
+    "des": "The Portenta Vision Shield brings industry-rated features to your Arduino Portenta. This hardware add-on will let you run embedded computer vision applications, connect wirelessly or via Ethernet to the Arduino Cloud or your own infrastructure, and activate your system upon the detection of sound events."
+  },
+  "ARDUINO PORTENTA VISION SHIELD": {
+    "name": "ARDUINO PORTENTA VISION SHIELD",
+    "price": "$63.00",
+    "img": "/Images/ARduino_Portenta_Vision_Shield.jpg",
+    "des": "The Portenta Vision Shield LoRa® brings industry-rated features to your Arduino Portenta. This hardware add-on will let you run embedded computer vision applications, connect wirelessly via LoRa® to the Arduino Cloud or your own infrastructure, and activate your system upon the detection of sound events."
+  },
+  "MKR PROTO SHIELD": {
+    "name": "MKR PROTO SHIELD",
+    "price": "$8.00",
+    "img": "/Images/MKR PROTO SHIELD.jpg",
+    "des": "The MKR Proto Shield is a prototyping shield designed for your MKR board. This shield easily plugs onto your MKR using its provided female/male headers, and offers a duplicate breakout for each pin on the board along with many solderable through-holes on a standard 0.1” grid (2.54mm)."
+  },
+  "MKR PROTO LARGE SHIELD": {
+    "name": "MKR PROTO LARGE SHIELD",
+    "price": "$9.10",
+    "img": "/Images/MKR_Proto_large_Shield.jpg",
+    "des": "The MKR Proto Large Shield fits onto your MKR board using its provided female/male headers and enables you to fix it wherever you want with the mounting holes. This shield features a larger prototyping area with more than 300 solder points and makes connecting components to your board super simple, thanks to the silk that indicates the MKR board pins location"
+  },
+  "MKR RELAY PROTO SHIELD": {
+    "name": "MKR RELAY PROTO SHIELD",
+    "price": "$16.00",
+    "img": "/Images/MKR_Relay_Proto_Shield.jpg",
+    "des": "The MKR Relay Proto Shield allows you to easily command relays with your MKR board. The shield provides two on board relays and a small prototyping area if you need to add some other component to your project.The MKR Relay Protoshield allows you to easily add relays to your MKR board based project. The shield provides two relays (Datasheet)  called RELAY1 and RELAY2 commanded by pin 1 and pin 2 respectively. The shield also provides an easy connection by means of screw terminal blocks to A1 to A4 analog inputs, I2C and supply voltages."
+  },
+  "PROTO SHIELD REV3 (UNO SIZE)": {
+    "name": "PROTO SHIELD REV3 (UNO SIZE)",
+    "price": "$11.40",
+    "img": "/Images/PROTO SHIELD REV3 (UNO SIZE).jpg",
+    "des": "The ProtoShield makes it easy for you to design custom circuits. You can easily solder TH or SMD ICs on the prototyping area to test them with your Arduino board. The SMD area is designed for a maximum of 24 pins SOIC integrated circuit and the TH area contains a lot of space for the needed components around your project. You can even stick a mini breadboard (not included) on the protoarea for solderless operation. The proto area includes also two power lines (IOREF and GND), two LEDs pads and SPI signals breakout pads for boards with SPI only on the ICSP header like Zero."
+  }
+}
