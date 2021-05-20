@@ -17,7 +17,7 @@ function navbar() {
               alt="Smart solutions logo"
             />
           </Navbar.Brand>
-          <Navbar.Brand>Smart Solutions</Navbar.Brand>
+          <Navbar.Brand>The Smart Solutions</Navbar.Brand>
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

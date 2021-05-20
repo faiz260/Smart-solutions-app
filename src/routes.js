@@ -11,7 +11,8 @@ import Sound from "./components/ourServices/sound/sound";
 import ServicesIndex from "./components/ourServices/service_index/servicesIndex";
 import Contact from "./components/contact/Contact";
 import NotFound from "./components/notFound/NotFound";
-import {ArduinoIndex} from "./components/ourServices/arduino/arduinoIndex";
+import { ArduinoIndex } from "./components/ourServices/arduino/arduinoIndex";
+import { ArduinoItem } from "./components/ourServices/arduino/arduinoItem";
 
 export const RouterConfig = () => {
   return (
@@ -26,6 +27,7 @@ export const RouterConfig = () => {
           <Route path=":solar-panels" element={<Solar />} />
           <Route path=":arduino" element={<Arduino />}>
             <Route path="/" element={<ArduinoIndex />} />
+            <Route path=":slug" element={<ArduinoItem />} />
           </Route>
           <Route path=":automation" element={<Automation />} />
         </Route>

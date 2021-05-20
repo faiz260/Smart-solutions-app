@@ -12,7 +12,7 @@ function screen1() {
       <div className="inner-div">
         <div className="text-div">
           <Typography variant="h2" className="Typo Typo1">
-            Smart Solutions
+            The Smart Solutions
           </Typography>
           <Typography variant="h5" className="Typo Typo2">
             Where need meets solution

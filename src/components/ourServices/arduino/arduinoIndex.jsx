@@ -5,10 +5,11 @@ import {
   Paper,
   Card,
   CardContent,
-  CardMedia,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import "./arduinoIndex.css";
+import Footer from '../../footer/footer';
+import LowerFooter from '../../footer/lower_footer';
 
 export const ArduinoIndex = () => {
   return (
@@ -23,18 +24,18 @@ export const ArduinoIndex = () => {
           return (
             <Link to={`/our-services/arduino/${slug}`} key={name}>
               <Card key={name} className="arduino_card">
-                <CardContent>
+                <CardContent className="card_content">
                   {" "}
                   <img src={img} alt={name} className="card_image" />
                   <Typography
-                    variant="body2"
+                    variant="h6"
                     component="h1"
                     color="textSecondary"
                   >
                     {name}
                   </Typography>
                   <Typography
-                    variant="body2"
+                    variant="body1"
                     component="h1"
                     color="textSecondary"
                   >
@@ -46,6 +47,8 @@ export const ArduinoIndex = () => {
           );
         })}
       </div>
+      <Footer/>
+      <LowerFooter/>
     </div>
   );
 };

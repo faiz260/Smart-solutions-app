@@ -19,7 +19,7 @@ function About() {
               <div>
                 {readMore ? (
                   <Typography variant="subtitle1" className="content">
-                    Welcome to Smart Solutions! We aim to offer our customers a
+                    Welcome to The Smart Solutions! We aim to offer our customers a
                     variety of the latest and smartest services. We’ve come a
                     long way, so we know exactly which direction to take when
                     supplying you with high quality yet budget-friendly
@@ -35,7 +35,7 @@ function About() {
                 ) : (
                   <div>
                     <Typography variant="subtitle1" className="content">
-                      Welcome to Smart Solutions! We aim to offer our customers
+                      Welcome to The Smart Solutions! We aim to offer our customers
                       a variety of the latest and smartest services. We’ve come
                       a long way, so we know exactly which direction to take
                       when supplying you with high quality yet budget-friendly
@@ -64,7 +64,7 @@ function About() {
             ) : (
               <div>
                 <Typography variant="subtitle1" className="content">
-                  Welcome to Smart Solutions! We aim to offer our customers a
+                  Welcome to The Smart Solutions! We aim to offer our customers a
                   variety of the latest and smartest services. We’ve come a long
                   way, so we know exactly which direction to take when supplying
                   you with high quality yet budget-friendly services. We offer
@@ -91,7 +91,7 @@ function About() {
             <Typography variant="h4" className="owner_name">
               Faiz Shahnawaz
             </Typography>
-            <Typography variant="subtitle1">Owner Smart Solutions</Typography>
+            <Typography variant="subtitle1">Owner The Smart Solutions</Typography>
           </Paper>
           <Paper elevation={0} className="owner_des_paper">
             <div className="des_content">
