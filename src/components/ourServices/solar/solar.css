@@ -1,0 +1,42 @@
+.solar_header_background {
+  height: 800px;
+  width: 100%;
+  margin-top: 70px;
+  background-image: url("https://www.exeoenergy.co.uk/images/uploads/black-frame-solar-panel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: 1px solid;
+  filter: blur(3px);
+  -webkit-filter: blur(2px);
+}
+.solar_header_text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2 !important;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  font-size: 4.5vw !important;
+}
+.solar_body{
+    border: 1px solid red;
+    /* height: 80vw; */
+    width: 80%;
+    margin: auto;
+}
+.carousel{
+  border: 1px solid blue;
+}
+
+@media(max-width: 800px){
+
+}

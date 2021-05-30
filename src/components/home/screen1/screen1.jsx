@@ -1,7 +1,6 @@
 import React from "react";
 import "./screen1.css";
-import { Container, Typography } from "@material-ui/core";
-import { createStyles, Theme, makeStyles } from "@material-ui/core/styles";
+import { Typography } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { Link } from "react-router-dom";

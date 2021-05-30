@@ -35,11 +35,11 @@ function screen2() {
               {" "}
               <CardMedia
                 className="card-media"
-                image="/plc-automation-systems-500x500.jpg"
+                image="/Images/ARDUINO MKR MOTOR CARRIER.jpg"
                 title="Contemplative Reptile"
               />
               <Typography className="card-typo" variant="h5" component="h2">
-                Industrial solutions
+                Arduino
               </Typography>
               <Typography
                 className="card-typo"

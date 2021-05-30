@@ -28,6 +28,9 @@
   justify-content: space-around;
   flex-direction: column;
 }
+.product_head::hover {
+  color: red;
+}
 .product_des {
   color: rgb(80, 80, 80);
   margin-top: 20px !important;
@@ -50,6 +53,9 @@
   .product_des {
     font-size: 0.85rem !important;
   }
+  .service > img {
+    height: 30% !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -58,5 +64,11 @@
   }
   .product_des {
     font-size: 0.75rem !important;
+  }
+  .service {
+    height: 110vw !important;
+  }
+  .service > img {
+    height: 40% !important;
   }
 }

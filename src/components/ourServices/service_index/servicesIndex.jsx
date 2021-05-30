@@ -21,7 +21,7 @@ function ServicesIndex() {
             <Link to="/our-services/automation">Learn More</Link>
           </Typography>
         </div>{" "}
-        <img src="/plc-automation-systems-500x500.jpg" alt="" />
+        <img src="/Images/ARDUINO MKR MOTOR CARRIER.jpg" alt="" />
       </Paper>
 
       <Paper elevation={3} className="service">

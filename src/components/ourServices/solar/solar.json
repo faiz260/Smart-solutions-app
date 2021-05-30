@@ -1,0 +1,18 @@
+{
+  "item1": {
+    "name": "Random Name #1",
+    "description": "Probably the most random thing you have ever seen!"
+  },
+  "item2": {
+    "name": "Random Name #2",
+    "description": "Hello World!"
+  },
+  "item3": {
+    "name": "Random Name #3",
+    "description": "Probably the most random thing you have ever seen!"
+  },
+  "item4": {
+    "name": "Random Name #4",
+    "description": "Hello World!"
+  }
+}
