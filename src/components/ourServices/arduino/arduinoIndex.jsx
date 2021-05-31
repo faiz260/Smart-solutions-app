@@ -1,17 +1,12 @@
 import React from "react";
 import Arduino from "../../../data.json";
-import {
-  Typography,
-  Paper,
-  Card,
-  CardContent,
-} from "@material-ui/core";
+import { Typography, Paper, Card, CardContent } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import "./arduinoIndex.css";
-import Footer from '../../footer/footer';
-import LowerFooter from '../../footer/lower_footer';
+import Footer from "../../footer/footer";
+import LowerFooter from "../../footer/lower_footer";
 
-export const ArduinoIndex = () => {
+const ArduinoIndex = () => {
   return (
     <div className="arduino_div">
       <Paper elevation={0} square="true" className="arduino_top">
@@ -27,11 +22,7 @@ export const ArduinoIndex = () => {
                 <CardContent className="card_content">
                   {" "}
                   <img src={img} alt={name} className="card_image" />
-                  <Typography
-                    variant="h6"
-                    component="h1"
-                    color="textSecondary"
-                  >
+                  <Typography variant="h6" component="h1" color="textSecondary">
                     {name}
                   </Typography>
                   <Typography
@@ -47,8 +38,9 @@ export const ArduinoIndex = () => {
           );
         })}
       </div>
-      <Footer/>
-      <LowerFooter/>
+      <Footer />
+      <LowerFooter />
     </div>
   );
 };
+export default ArduinoIndex;

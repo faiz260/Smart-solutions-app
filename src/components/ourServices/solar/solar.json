@@ -1,18 +1,27 @@
 {
   "item1": {
-    "name": "Random Name #1",
-    "description": "Probably the most random thing you have ever seen!"
+    "name": "Solar #1",
+    "description": "Probably the most random thing you have ever seen!",
+    "img": "https://www.pv-magazine.com/wp-content/uploads/2018/01/Net_metering_solar_PV_system_at_Fazaia_Colony_by_RH-Solar-Energy_Image_Facebook_Net_Metering_Pakistan.jpg"
   },
   "item2": {
-    "name": "Random Name #2",
-    "description": "Hello World!"
+    "name": "Solar #2",
+    "description": "Probably the most random thing you have ever seen!",
+    "img": "https://cdn.dnd.com.pk/wp-content/uploads/2018/06/Solar-UPS-1200x911.jpg"
   },
   "item3": {
-    "name": "Random Name #3",
-    "description": "Probably the most random thing you have ever seen!"
+    "name": "Solar #3",
+    "description": "Probably the most random thing you have ever seen!",
+    "img": "/Solar_Pictures/WhatsApp Image 2021-05-28 at 11.56.18 PM (1).jpeg"
   },
   "item4": {
-    "name": "Random Name #4",
-    "description": "Hello World!"
+    "name": "Solar #4",
+    "description": "Probably the most random thing you have ever seen!",
+    "img": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2019/10/solar-energy-1570987896.jpg"
+  },
+  "item5": {
+    "name": "Solar #5",
+    "description": "Probably the most random thing you have ever seen!",
+    "img": "https://5.imimg.com/data5/SELLER/Default/2021/1/YT/KA/OC/8655157/new-product-500x500.jpeg"
   }
 }

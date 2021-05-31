@@ -6,7 +6,7 @@ import "./arduinoItem.css";
 import Footer from "../../footer/footer";
 import LowerFooter from "../../footer/lower_footer";
 
-export const ArduinoItem = () => {
+const ArduinoItem = () => {
   const { slug } = useParams();
   const data = Data[slug];
   const { name, img, price, des } = data;
@@ -45,3 +45,4 @@ export const ArduinoItem = () => {
     </div>
   );
 };
+export default ArduinoItem

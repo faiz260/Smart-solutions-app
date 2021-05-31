@@ -1,4 +1,12 @@
 .solarItems{
-    border: 1px solid green;
-    height: 500px !important;
+    /* border: 1px solid green; */
+    height: 60vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.solar_images{
+    width: 80%;
+    height: 80%;
 }

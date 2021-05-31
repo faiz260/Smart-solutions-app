@@ -4,17 +4,17 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import About from "./components/about/about";
 import Services from "./components/ourServices/services";
-import Solar from "./components/ourServices/solar/solar";
+import Solar from "./components/ourServices/solar/Solar";
 import Automation from "./components/ourServices/automation/automation";
-import Arduino from "./components/ourServices/arduino/arduino";
 import Sound from "./components/ourServices/sound/sound";
 import ServicesIndex from "./components/ourServices/service_index/servicesIndex";
 import Contact from "./components/contact/Contact";
 import NotFound from "./components/notFound/NotFound";
-import { ArduinoIndex } from "./components/ourServices/arduino/arduinoIndex";
-import { ArduinoItem } from "./components/ourServices/arduino/arduinoItem";
+import Arduino from "./components/ourServices/arduino/arduino";
+import ArduinoIndex from "./components/ourServices/arduino/arduinoIndex";
+import ArduinoItem from "./components/ourServices/arduino/arduinoItem";
 
-export const RouterConfig = () => {
+const RouterConfig = () => {
   return (
     <Router>
       <Navbar />
@@ -23,12 +23,12 @@ export const RouterConfig = () => {
         <Route path="/about" element={<About />} />
         <Route path="/our-services" element={<Services />}>
           <Route path="/" element={<ServicesIndex />} />
-          <Route path=":sound-systems" element={<Sound />} />
-          <Route path=":solar-panels" element={<Solar />} />
           <Route path=":arduino" element={<Arduino />}>
             <Route path="/" element={<ArduinoIndex />} />
             <Route path=":slug" element={<ArduinoItem />} />
           </Route>
+          <Route path=":sound-systems" element={<Sound />} />
+          <Route path=":solar-panels" element={<Solar />} />
           <Route path=":automation" element={<Automation />} />
         </Route>
         <Route path="/contact-us" element={<Contact />} />
@@ -37,3 +37,4 @@ export const RouterConfig = () => {
     </Router>
   );
 };
+export default RouterConfig;

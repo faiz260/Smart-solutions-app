@@ -62,7 +62,7 @@ function ServicesIndex() {
 
       <Paper elevation={3} className="service">
         <div className="service_content">
-          <Link to="/our-services/industrial-solutions">
+          <Link to="/our-services/automation">
             <Typography variant="h2" className="product_head">
               {" "}
               Automation

@@ -1,15 +1,16 @@
 import React from "react";
-import { Paper, Button } from "@material-ui/core";
+import { Paper, Button, Typography } from "@material-ui/core";
 import "./solarItems.css";
 
 export default function Item(props) {
-  console.log("Solar Props >>", props.item[1].name);
+  console.log("Solar Props >>", props);
   return (
     <Paper className="solarItems">
-      <h2>{props.item[1].name}</h2>
-      <p>{props.item[1].description}</p>
-
-      <Button >Check it out!</Button>
+      <img
+        alt={props.item[1].name}
+        src={props.item[1].img}
+        className="solar_images"
+      />
     </Paper>
   );
 }

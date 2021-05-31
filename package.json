@@ -16,7 +16,7 @@
     "react-lottie": "^1.2.3",
     "react-material-ui-carousel": "^2.2.6",
     "react-router-dom": "^6.0.0-beta.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-smooth-scrolling": "^1.0.2",
     "web-vitals": "^1.0.1"
   },

@@ -1,4 +1,27 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+* {
   margin: 0;
   padding: 0;
+  font-family: "Noto Serif", serif;
+}
+.MuiTypography-h1 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-h2 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-h3 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-h4 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-h5 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-body2 {
+  font-family: "Noto Serif", serif !important;
+}
+.MuiTypography-subtitle1 {
+  font-family: "Noto Serif", serif !important;
 }
