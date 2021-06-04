@@ -31,17 +31,24 @@ function Solar() {
           <Typography variant="h3" className="solar_des_head">
             We deal in every kind of Solar Energy Systems.
           </Typography>
-          <Typography variant="h5" className="solar_des_body">
+          <Typography variant="p" className="solar_des_body">
             We provide full fledge solar energy systems for your houses,
             factories, commercial buildings etc. Which will reduce your
-            electricity bill to 0.
+            electricity bill to 0. High Efficiency Low LID Bifacial PERC with
+            Half-cut technology with High module conversion efficiency(up to
+            20.9%). Bifacial technology enables energy harvesting from rear side
+            (up to 25%). Along with high class inverters for non-interepted
+            backup.
           </Typography>
-          <Typography variant="h5" className="solar_des_body">
-            We provide full fledge solar energy systems for your houses,
-            factories, commercial buildings etc. Which will reduce your
-            electricity bill to 0.
-          </Typography>
-          <Button variant="contained" className="solar_des_button">
+          {/* <Typography variant="p" className="solar_des_body">
+            Along with high class inverters for non-interepted backup.
+          </Typography> */}
+          <Button
+            href="https://www.facebook.com/smartsolutionsunofficial"
+            target="_blank"
+            variant="contained"
+            className="solar_des_button"
+          >
             Get in touch with us
           </Button>
         </Paper>

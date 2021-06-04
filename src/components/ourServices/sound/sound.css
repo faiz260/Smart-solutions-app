@@ -1,15 +1,15 @@
-.solar_panel {
+.sound_system {
   display: flex;
   flex-direction: column;
 }
-.solar_header {
+.sound_header {
   margin-bottom: 100px;
 }
-.solar_header_background {
+.sound_header_background {
   height: 800px;
   width: 100%;
   margin-top: 70px;
-  background-image: url("https://www.exeoenergy.co.uk/images/uploads/black-frame-solar-panel.jpg");
+  background-image: url("https://img3.exportersindia.com/product_images/bc-full/dir_63/1866638/professional-sound-system-rental-1523528334-3776894.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,10 +19,10 @@
   -webkit-filter: blur(2px);
 }
 
-.solar_header_text {
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
+.sound_header_text {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
@@ -30,23 +30,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2 !important;
-  width: 70%;
+  width: 80%;
   padding: 20px;
   text-align: center;
   font-size: 6vw !important;
 }
-.solar_body {
+.sound_body {
   /* border: 1px solid; */
   width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 150px;
+  margin-bottom: 5vw;
 }
-.solar_body_text {
+.sound_body_text {
   font-size: 5vw !important;
-  margin-bottom: 40px !important;
+  margin-bottom: 20px !important;
   background-color: hsl(213deg 100% 25%) !important;
   width: 100%;
   color: white !important;
@@ -54,11 +54,9 @@
   border-radius: 2px;
   padding: 20px;
 }
-.carousel {
-}
-.solar_des {
+.sound_des {
   width: 90%;
-  height: 60vw;
+  height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -66,26 +64,32 @@
   justify-content: space-around;
   margin-bottom: 100px;
 }
-.solar_des_head {
-  width: 70vw;
-  font-size: 5vw !important;
-  text-align: center;
-  margin-top: 20px !important;
-  padding: 20px;
-}
-.solar_des_body {
+.sound_des_body {
   text-align: justify;
-  width: 80vw;
+  width: 50vw;
   font-size: 2vw !important;
   margin-top: 20px !important;
-  line-height: 5vw;
+  line-height: 4vw;
+  padding: 5vw;
+  border: 1px solid red;
 }
-.solar_des_button {
+.sound_des_div1 {
+  width: 90vw;
+  border: 1px solid;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.sound_des_div1 > img {
+  width: 30vw;
+}
+.sound_des_button {
+  margin: 10vw !important;
   width: 30vw !important;
   height: 7vw !important;
-  margin-top: 20px !important;
   font-size: 1.5vw !important;
-  margin-bottom: 10px !important;
 }
 @media (max-width: 600px) {
   .solar_header_background {
@@ -94,10 +98,10 @@
   .solar_header_text {
     top: 40%;
   }
-  .solar_des{
+  .solar_des {
     height: 90vw;
   }
-  .solar_des_body{
-  font-size: 2.5vw !important;
+  .solar_des_body {
+    font-size: 2.5vw !important;
   }
 }
