@@ -2,6 +2,7 @@ import React from "react";
 import "./screen3.css";
 import { Paper, Typography } from "@material-ui/core";
 import Image from "react-bootstrap/Image";
+import Flip from "react-reveal/Flip";
 
 function screen3() {
   return (
@@ -15,12 +16,14 @@ function screen3() {
             roundedCircle
           />
           <Typography variant="h5" className="name">
-            Faiz Shahnawaz
+            <Flip top>Faiz Shahnawaz</Flip>
           </Typography>
           <Typography variant="body1" className="details">
             <em>
-              " Lorem Ipsumn doner Lizards are a widespread group of squamate
-              reptiles, with over reptiles, with over "
+              <Flip right>
+                " Lorem Ipsumn doner Lizards are a widespread group of squamate
+                reptiles, with over reptiles, with over "
+              </Flip>
             </em>
           </Typography>
         </Paper>

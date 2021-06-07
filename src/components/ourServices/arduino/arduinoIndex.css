@@ -18,8 +18,11 @@
 .arduino_top_text {
   color: white;
   font-weight: 400 !important;
-  background-color: rgba(95, 158, 160, 0.5);
+  /* background-color: rgba(95, 158, 160, 0.5); */
   width: 80%;
+}
+.text_div {
+  background-color: rgba(95, 158, 160, 0.5);
 }
 
 .arduinoIndex {
@@ -64,12 +67,12 @@
   margin-bottom: 20px;
 }
 
-@media(max-width: 750px){
+@media (max-width: 750px) {
   .arduino_top_text {
     font-size: 3rem !important;
   }
 }
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .arduino_top_text {
     font-size: 2rem !important;
   }

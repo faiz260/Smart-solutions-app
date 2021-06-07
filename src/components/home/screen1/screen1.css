@@ -126,10 +126,12 @@ a:hover {
 @media (max-width: 720px) {
   .inner-div {
     flex-direction: column;
+    margin-top: 50px;
   }
   .logo-div {
     width: 400px;
     height: 300px;
+    margin-top: -50px;
   }
   .text-div {
     width: 400px;

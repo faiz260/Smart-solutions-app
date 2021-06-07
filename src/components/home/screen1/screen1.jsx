@@ -4,6 +4,7 @@ import { Typography } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { Link } from "react-router-dom";
+import Flip from "react-reveal/Flip";
 
 function screen1() {
   return (
@@ -24,7 +25,9 @@ function screen1() {
           </Link>
         </div>
         <div className="logo-div">
-          <img src="/logo3.png" alt="logo" className="logo" />
+          <Flip left>
+            <img src="/logo3.png" alt="logo" className="logo" />
+          </Flip>
         </div>
       </div>
     </div>
