@@ -5,13 +5,11 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 65px;
-  /* border: 1px solid; */
 }
 .div1 {
   width: 40%;
   height: 500px;
   margin-top: 100px;
-  /* border: 1px solid; */
   display: flex;
   flex-direction: column;
   background-color: hsl(60deg 1% 73%) !important;
@@ -20,13 +18,11 @@
 .div1 > div {
   height: 100%;
   width: 100%;
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .div2_1 {
-  /* border: 1px solid hsl(213deg 100% 25%) !important; */
   width: 40%;
   height: 80%;
   display: flex;
@@ -35,14 +31,10 @@
   flex-direction: column;
   overflow-wrap: break-word;
 }
-.email_typo {
-  /* word-wrap: break-word !important; */
-  /* border: 1px solid; */
-}
+
 .div2 {
   width: 50%;
   height: 500px;
-  /* border: 1px solid; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -60,7 +52,6 @@
 .contact_us_lottie {
   height: 400px;
   margin: 20px;
-  /* max-width: 300px; */
 }
 .contact_us {
   text-align: center;
@@ -76,7 +67,6 @@
   .div1 {
     width: 80%;
     margin-top: 50px;
-
   }
   .div2 {
     width: 80%;
@@ -93,10 +83,7 @@
   .div1 {
     height: 800px;
   }
-  .contact_us {
-    /* width: 20%; */
-    /* border: 1px solid; */
-  }
+
   .cu_typo {
     font-size: 4rem !important;
   }
@@ -109,7 +96,7 @@
   .cu_typo {
     font-size: 3rem !important;
   }
-  .contact{
+  .contact {
     margin-top: 0px;
   }
   .MuiTypography-h6 {

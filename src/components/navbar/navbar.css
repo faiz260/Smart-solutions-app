@@ -61,6 +61,11 @@
 }
 
 /* Mobile responsiveness */
+@media (max-width: 800px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
 @media (max-width: 615px) {
   #bootstrap-overrides .navbar-brand {
     font-weight: 900;

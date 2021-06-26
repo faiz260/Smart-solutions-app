@@ -36,15 +36,15 @@
   /* height: 240px; */
   margin-bottom: 10px;
 }
-.card-content{
+.card-content {
   display: flex;
   flex-direction: column;
   /* padding: 10px; */
 }
-.card-media{
+.card-media {
   height: 100px;
 }
-.card-typo{
+.card-typo {
   padding-top: 5px;
 }
 .cards-div1 {
@@ -58,13 +58,11 @@
   color: white;
   margin-top: 100px !important;
   text-align: center;
-  /* border: 1px solid; */
 }
 
 @media (max-width: 915px) {
   .card {
     width: 150px;
-    /* height: 180px; */
   }
   .lottie {
     height: 400px !important;
@@ -73,7 +71,7 @@
   .Typo-text {
     font-size: 3.5rem !important;
   }
-  .card-media{
+  .card-media {
     height: 70px;
   }
 }
@@ -83,7 +81,6 @@
   }
   .card {
     width: 170px;
-    /* height: 240px; */
     margin-bottom: 10px;
   }
 }
@@ -98,7 +95,7 @@
     width: 300px;
     flex-wrap: wrap;
   }
-  .cards-div1{
+  .cards-div1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +114,7 @@
     font-size: 3rem !important;
     text-overflow: hidden;
   }
-  .card{
+  .card {
     width: 90%;
   }
 }

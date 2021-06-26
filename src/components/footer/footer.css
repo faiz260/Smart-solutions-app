@@ -36,10 +36,10 @@
   margin-right: 10px;
   color: black;
   cursor: pointer;
+  width: 2.5vw !important;
 }
 
 .footer_mid {
-  /* border: 1px solid; */
   height: 250px;
   padding: 15px;
   margin-top: 50px;
@@ -54,11 +54,19 @@
   margin: 20px;
   max-width: 300px;
 }
-
+.typo {
+  font-size: 6vw !important;
+}
+.contact_details {
+  font-size: 1.5vw;
+}
 @media (max-width: 930px) {
   .typo {
-    font-size: 3.5rem !important;
+    /* font-size: 3.5rem !important; */
     width: 90%;
+  }
+  .contact_details {
+    font-size: 2vw;
   }
   .footer_right {
     width: 80%;
@@ -82,10 +90,19 @@
 
 @media (max-width: 751px) {
   .typo {
-    font-size: 2rem !important;
+    font-size: 10vw !important;
   }
   .div_1 {
     flex-direction: column;
+  }
+  .footer_mid {
+    margin-top: -20px;
+  }
+  .contact_details {
+    font-size: 2.5vw;
+  }
+  .icon {
+    width: 3vw !important;
   }
 }
 
@@ -94,18 +111,27 @@
     flex-direction: column;
   }
   .typo {
-    font-size: 3rem !important;
+    font-size: 10vw !important;
   }
   .footer_mid {
     margin-top: -50px;
+  }
+  .contact_details {
+    font-size: 3vw;
+  }
+  .icon {
+    width: 3.5vw !important;
   }
 }
 
 @media (max-width: 380px) {
   .typo {
-    font-size: 2.5rem !important;
+    /* font-size: 2.5rem !important; */
   }
   .contact_details {
-    font-size: 1rem;
+    font-size: 4vw;
+  }
+  .icon {
+    width: 4.5vw !important;
   }
 }
