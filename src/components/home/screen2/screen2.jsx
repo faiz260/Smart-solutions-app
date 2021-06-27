@@ -52,8 +52,9 @@ function screen2() {
                   color="textSecondary"
                 >
                   {" "}
-                  Industrial automation work related to hmi, plc, vfd siemens,
-                  allen bradley, fatek, delta.
+                  We provide a wide range of Arduino shields to fix your
+                  projects and professional assesments to help you complete your
+                  projects.
                 </Typography>
               </CardContent>
             </Card>{" "}
@@ -75,7 +76,8 @@ function screen2() {
                   color="textSecondary"
                 >
                   {" "}
-                  Stand alone system for irragation, farms and homes.
+                  All kind of solar energy system for your home, industries,
+                  farms or any location are available here.
                 </Typography>
               </CardContent>
             </Card>{" "}
@@ -101,7 +103,8 @@ function screen2() {
                   color="textSecondary"
                 >
                   {" "}
-                  Lizards are a widespread group of squamate reptiles, with over
+                  We provide all type of sound systems and services for masjid,
+                  events or mehfil e naat.
                 </Typography>
               </CardContent>
             </Card>{" "}

@@ -15,11 +15,8 @@ function ServicesIndex() {
               </Typography>
             </Link>
             <Typography variant="body1" className="product_des">
-              Industrial automation work related to hmi, plc, vfd siemens, allen
-              bradley, fatek, delta. Industrial automation work related to hmi,
-              plc, vfd siemens, allen bradley, fatek, delta. Industrial
-              automation work related to hmi, plc, vfd siemens, allen bradley,
-              fatek, delta.{" "}
+              We provide a wide range of Arduino shields to fix your projects
+              and professional assesments to help you complete your projects.{" "}
               <Link to="/our-services/automation">Learn More</Link>
             </Typography>
           </div>{" "}
@@ -36,11 +33,10 @@ function ServicesIndex() {
               </Typography>
             </Link>
             <Typography variant="body1" className="product_des">
-              Industrial automation work related to hmi, plc, vfd siemens, allen
-              bradley, fatek, delta. Industrial automation work related to hmi,
-              plc, vfd siemens, allen bradley, fatek, delta. Industrial
-              automation work related to hmi, plc, vfd siemens, allen bradley,
-              fatek, delta.{" "}
+              All kind of solar energy system for your home, industries, farms
+              or any location are available here. Our professional team will
+              convert your location on fully solar energy system which will
+              reduce your electricity bill upto 0%.{" "}
               <Link to="/our-services/solar-panels">Learn More</Link>
             </Typography>
           </div>{" "}
@@ -57,11 +53,9 @@ function ServicesIndex() {
               </Typography>
             </Link>
             <Typography variant="body1" className="product_des">
-              Industrial automation work related to hmi, plc, vfd siemens, allen
-              bradley, fatek, delta. Industrial automation work related to hmi,
-              plc, vfd siemens, allen bradley, fatek, delta. Industrial
-              automation work related to hmi, plc, vfd siemens, allen bradley,
-              fatek, delta.{" "}
+              We provide all type of sound systems and services for masjid,
+              events or mehfil e naat. Our experts will get your events covered
+              with our high class sound systems.{" "}
               <Link to="/our-services/sound-systems">Learn More</Link>
             </Typography>
           </div>{" "}

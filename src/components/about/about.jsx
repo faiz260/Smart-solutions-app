@@ -92,30 +92,29 @@ function About() {
         </Paper>
 
         <div className="div_2">
-          <Paper elevation={0} className="owner_paper">
-            <Fade>
-              <img src="/Faiz-front-photo.jpeg" />
-              <Typography variant="h4" className="owner_name">
-                Faiz Shahnawaz
-              </Typography>
-              <Typography variant="subtitle1">
-                Owner The Smart Solutions
-              </Typography>
-            </Fade>
-          </Paper>
-          <Paper elevation={0} className="owner_des_paper">
+          <Paper elevation={3} className="owner_des_paper">
             <div className="des_content">
               <Typography variant="body2" className="des_typo">
                 <em>
                   <Fade>
-                    "We always keep an eye on the latest trends in [PRODUCTS
-                    CATEGORY NAME] and put our customers’ wishes first. That is
-                    why we have satisfied customers all over the world, and are
-                    thrilled to be a part of the [PRODUCTS CATEGORY NAME]
-                    industry."{" "}
+                    "We always keep an eye on the latest trends in technology
+                    and put our customers’ wishes first. That is why we have
+                    satisfied customers all over the Pakistan, and are thrilled
+                    to be a part of The Smart Solutions"{" "}
                   </Fade>
                 </em>
               </Typography>
+            </div>
+            <div>
+              <Fade>
+                {/* <img src="/Faiz-front-photo.jpeg" /> */}
+                <Typography variant="h4" className="owner_name">
+                  Sohail Mughal
+                </Typography>
+                <Typography variant="subtitle1">
+                  Owner The Smart Solutions
+                </Typography>
+              </Fade>
             </div>
           </Paper>
         </div>

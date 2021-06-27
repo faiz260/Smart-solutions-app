@@ -9,22 +9,24 @@ function screen3() {
     <div>
       <div className="screen3-uper-div">
         <Paper elevation={3} className="portfolio-div">
-          <Image
+          {/* <Image
             src="Faiz-front-photo.jpeg"
             alt="owner_picture"
             className="profile-pic"
             roundedCircle
-          />
-          <Typography variant="h5" className="name">
-            <Flip top>Faiz Shahnawaz</Flip>
-          </Typography>
+          /> */}
+
           <Typography variant="body1" className="details">
             <em>
               <Flip right>
-                " Lorem Ipsumn doner Lizards are a widespread group of squamate
-                reptiles, with over reptiles, with over "
+                "We have everything that you can imagine to provide you with the
+                best services in different aspects such as solar energy, sound
+                systems, arduino or automation."
               </Flip>
             </em>
+          </Typography>
+          <Typography variant="h5" className="name">
+            <Flip top>Sohail Mughal</Flip>
           </Typography>
         </Paper>
       </div>
