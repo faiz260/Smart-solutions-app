@@ -5,11 +5,15 @@ import Button from "@material-ui/core/Button";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { Link } from "react-router-dom";
 import Flip from "react-reveal/Flip";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function screen1() {
   return (
     <div className="div">
       <div className="inner-div">
+        <MessengerCustomerChat
+          pageId="100138961782035"
+        />
         <div className="text-div">
           <Typography variant="h2" className="Typo Typo1">
             The Smart Solutions

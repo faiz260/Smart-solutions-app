@@ -54,11 +54,9 @@
   border-radius: 2px;
   padding: 20px;
 }
-.carousel {
-}
+
 .solar_des {
   width: 90%;
-  height: 60vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -76,9 +74,19 @@
 .solar_des_body {
   text-align: justify;
   width: 80vw;
-  font-size: 2vw !important;
+  font-size: 1.5vw !important;
   margin-top: 20px !important;
-  line-height: 5vw;
+  line-height: 3vw;
+  color: hsl(0deg 0% 47%);
+}
+.solar_module_head {
+  text-align: left;
+  width: 80vw;
+  font-weight: 900 !important;
+  margin: 2vw !important;
+}
+li {
+  margin-left: 5vw;
 }
 .solar_des_button {
   width: 30vw !important;
@@ -94,10 +102,17 @@
   .solar_header_text {
     top: 40%;
   }
-  .solar_des{
-    height: 90vw;
+  .solar_des {
+    height: 300vw !important;
   }
-  .solar_des_body{
-  font-size: 2.5vw !important;
+  .solar_des_body {
+    font-size: 3vw !important;
+  }
+}
+@media (max-width: 450px) {
+  .solar_des_body {
+  }
+  .solar_module_head {
+    font-size: 3.5vw !important;
   }
 }

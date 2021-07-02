@@ -52,10 +52,13 @@ function footer() {
               </span>
             </Typography>
             <Typography variant="h6" component="h6">
-              <Link target="_blank" href="https://www.youtube.com">
+              <Link
+                target="_blank"
+                href="https://www.youtube.com/channel/UCI29f6Dmvrzuft10md5x2Ag"
+              >
                 <YouTubeIcon className="icon" fontSize="large" />
               </Link>
-              <span className="contact_details"> email@gmail.com </span>
+              <span className="contact_details">/thesmartsolutions</span>
             </Typography>
             <Typography variant="h6" component="h6">
               <Link

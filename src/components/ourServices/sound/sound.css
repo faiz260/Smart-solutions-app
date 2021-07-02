@@ -68,10 +68,11 @@
 .sound_des_body {
   text-align: justify;
   width: 50vw;
-  font-size: 2vw !important;
+  font-size: 1.5vw !important;
   margin-top: 20px !important;
-  line-height: 4vw;
+  line-height: 3vw;
   padding: 5vw;
+  color: hsl(0deg 0% 47%);
 }
 .sound_des_div1 {
   width: 90vw;
