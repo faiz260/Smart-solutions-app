@@ -123,13 +123,6 @@
     width: 70vw;
     height: 6vw;
   }
-  .contact_img {
-    margin-bottom: 10vw;
-    margin-top: 15vw;
-  }
-  .contact_img > img {
-    height: 50vw !important;
-  }
 }
 @media (max-width: 600px) {
   .div1 > div {
