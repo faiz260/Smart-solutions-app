@@ -5,7 +5,7 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Services from "./components/ourServices/services";
 import Solar from "./components/ourServices/solar/Solar";
-import Automation from "./components/ourServices/automation/automation";
+import CCTV from "./components/ourServices/cctv/cctv";
 import Sound from "./components/ourServices/sound/sound";
 import ServicesIndex from "./components/ourServices/service_index/servicesIndex";
 import Contact from "./components/contact/Contact";
@@ -23,13 +23,13 @@ const RouterConfig = () => {
         <Route path="/about" element={<About />} />
         <Route path="/our-services" element={<Services />}>
           <Route path="/" element={<ServicesIndex />} />
-          <Route path=":arduino" element={<Arduino />}>
+          <Route path=":cctv-cameras" element={<CCTV />} />
+          <Route path=":arduino-shields" element={<Arduino />}>
             <Route path="/" element={<ArduinoIndex />} />
             <Route path=":slug" element={<ArduinoItem />} />
           </Route>
           <Route path=":sound-systems" element={<Sound />} />
           <Route path=":solar-panels" element={<Solar />} />
-          <Route path=":automation" element={<Automation />} />
         </Route>
         <Route path="/contact-us" element={<Contact />} />
         <Route path="*" element={<NotFound />} />

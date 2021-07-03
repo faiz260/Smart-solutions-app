@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import { Typography, Link } from "@material-ui/core";
+import { Typography, Link, Collapse, IconButton } from "@material-ui/core";
 import Lottie from "react-lottie";
 import animationData from "../../assets/27620-contact-us.json";
 import LowerFooter from "../footer/lower_footer";
 import Fade from "react-reveal/Fade";
+import emailjs from "emailjs-com";
+import Alert from "@material-ui/lab/Alert";
+import CloseIcon from "@material-ui/icons/Close";
 
 function Contact() {
   const defaultOptions = {
@@ -19,57 +22,102 @@ function Contact() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const [emailSent, setemailSent] = useState(false);
+  const [open, setOpen] = useState(true);
+
+  console.log("Email sent 1 ", emailSent);
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qck3gm5",
+        "template_z5c9taf",
+        e.target,
+        "user_ZTsIEcjHAQLJAFuFMbRfN"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setemailSent(true);
+          console.log("Email Sent ", emailSent);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <div>
       <div className="contact">
-        <div className="div1">
-          {" "}
-          <div>
-            <Fade bottom>
-              <div className="div2_1">
-                <PhoneIcon className="contact-icon" fontSize="large" />
-                <Typography variant="h6">Phone Number</Typography>
-                <Typography variant="body1">0321 2326812</Typography>
-              </div>
-            </Fade>
-            <Fade bottom>
-              <div className="div2_1">
-                <FacebookIcon className="contact-icon" fontSize="large" />
-                <Typography variant="h6">Facebook</Typography>
-                <Link
-                  target="_blank"
-                  href="https://www.facebook.com/smartsolutionsunofficial/"
-                  className="contact_link"
-                >
-                  <Typography variant="body1">Smart Solutions</Typography>
-                </Link>
-              </div>
-            </Fade>
-          </div>
-          <div>
-            <Fade bottom>
-              <div className="div2_1">
-                <EmailIcon className="contact-icon" fontSize="large" />
-                <Typography variant="h6">Email Address</Typography>
-                <Typography variant="body1" className="email_typo">
-                  smartsolutionsunofficial@gmail.com
-                </Typography>
-              </div>
-            </Fade>
-            <Fade bottom>
-              <div className="div2_1">
-                <InstagramIcon className="contact-icon" fontSize="large" />
-                <Typography variant="h6">Instagram</Typography>
-                <Link
-                  target="_blank"
-                  href="https://www.instagram.com/smartsolutionsunofficial/"
-                  className="contact_link"
-                >
-                  <Typography variant="body1">Smart Solutions</Typography>
-                </Link>
-              </div>
-            </Fade>
-          </div>
+        <div className="contact_form">
+          {emailSent ? (
+            <Collapse in={open}>
+              <Alert
+                className="alert"
+                action={
+                  <IconButton
+                    aria-label="close"
+                    color="inherit"
+                    size="small"
+                    onClick={() => {
+                      setOpen(false);
+                    }}
+                  >
+                    <CloseIcon fontSize="inherit" />
+                  </IconButton>
+                }
+              >
+                Email Sent!
+              </Alert>
+            </Collapse>
+          ) : (
+            false
+          )}
+          <form onSubmit={sendEmail} className="form">
+            <input
+              type="text"
+              placeholder="Your Name *"
+              name="name"
+              className="input"
+              required={true}
+            />
+            <input
+              type="email"
+              placeholder="Your Email *"
+              name="email"
+              className="input"
+              required={true}
+            />
+            <input
+              type="text"
+              placeholder="Your contact No. *"
+              name="contact"
+              className="input"
+              required={true}
+            />
+            <input
+              type="text"
+              placeholder="Write a Subject*"
+              name="subject"
+              className="input"
+              required={true}
+            />
+            <textarea
+              type="text"
+              placeholder="Which service/product do you want? *"
+              name="message"
+              className="input"
+              required={true}
+            />
+            <input
+              type="submit"
+              className="input_btn"
+              value="Send Message"
+            ></input>
+          </form>
         </div>
 
         <div className="div2">

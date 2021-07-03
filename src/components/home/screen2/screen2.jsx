@@ -113,11 +113,11 @@ function screen2() {
                 {" "}
                 <CardMedia
                   className="card-media"
-                  image="/automation-home.jpg"
+                  image="https://www.pikpng.com/pngl/m/549-5494654_2k-ip-security-camera-system-with-4-channel.png"
                   title="Contemplative Reptile"
                 />
                 <Typography className="card-typo" variant="h5" component="h2">
-                  Automation
+                  CCTV
                 </Typography>
                 <Typography
                   className="card-typo"
@@ -126,8 +126,8 @@ function screen2() {
                   color="textSecondary"
                 >
                   {" "}
-                  Home automation , water pump automatic filling system for
-                  water tank, Automatic generator starter, Motor starting panel.
+                  If you are thinking of installing CCTV cameras at your home or
+                  business we can help you make the right choice.
                 </Typography>
               </CardContent>
             </Card>{" "}

@@ -9,7 +9,7 @@ function ServicesIndex() {
       <Paper elevation={3} className="service">
         <Fade bottom>
           <div className="service_content">
-            <Link to="/our-services/arduino">
+            <Link to="/our-services/arduino-shields">
               <Typography variant="h2" className="product_head">
                 Arduino
               </Typography>
@@ -17,7 +17,7 @@ function ServicesIndex() {
             <Typography variant="body1" className="product_des">
               We provide a wide range of Arduino shields to fix your projects
               and professional assesments to help you complete your projects.{" "}
-              <Link to="/our-services/automation">Learn More</Link>
+              <Link to="/our-services/arduino-shields">Learn More</Link>
             </Typography>
           </div>{" "}
           <img src="/Images/ARDUINO MKR MOTOR CARRIER.jpg" alt="" />
@@ -66,22 +66,24 @@ function ServicesIndex() {
       <Paper elevation={3} className="service">
         <Fade bottom>
           <div className="service_content">
-            <Link to="/our-services/automation">
+            <Link to="/our-services/cctv-cameras">
               <Typography variant="h2" className="product_head">
                 {" "}
-                Automation
+                CCTV
               </Typography>
             </Link>
             <Typography variant="body1" className="product_des">
-              Industrial automation work related to hmi, plc, vfd siemens, allen
-              bradley, fatek, delta. Industrial automation work related to hmi,
-              plc, vfd siemens, allen bradley, fatek, delta. Industrial
-              automation work related to hmi, plc, vfd siemens, allen bradley,
-              fatek, delta.{" "}
-              <Link to="/our-services/automation">Learn More</Link>
+              If you are thinking of installing CCTV cameras at your home or
+              business we can help you make the right choice. We have a team of
+              experts that have years of experience in installation of CCTV
+              Cameras in various environments.
+              <Link to="/our-services/cctv-cameras">Learn More</Link>
             </Typography>
           </div>{" "}
-          <img src="/automation-home.jpg" alt="" />
+          <img
+            src="https://www.pikpng.com/pngl/m/549-5494654_2k-ip-security-camera-system-with-4-channel.png"
+            alt=""
+          />
         </Fade>
       </Paper>
     </div>
