@@ -70,7 +70,7 @@ function Contact() {
                   </IconButton>
                 }
               >
-                Email Sent!
+                Message Sent!
               </Alert>
             </Collapse>
           ) : (
