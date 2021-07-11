@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
 import { Typography, Link, Collapse, IconButton } from "@material-ui/core";
 import Lottie from "react-lottie";
 import animationData from "../../assets/27620-contact-us.json";
 import LowerFooter from "../footer/lower_footer";
-import Fade from "react-reveal/Fade";
 import emailjs from "emailjs-com";
 import Alert from "@material-ui/lab/Alert";
 import CloseIcon from "@material-ui/icons/Close";

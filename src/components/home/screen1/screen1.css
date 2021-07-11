@@ -2,9 +2,13 @@
 .div {
   margin-bottom: 100px;
   font-family: "Noto Serif", serif;
-
 }
-
+.whatsapp {
+  position: fixed !important;
+  z-index: 2 !important;
+  top: 50vw;
+  right: -3vw;
+}
 .inner-div {
   margin-top: 100px;
   height: 100vh;
@@ -75,12 +79,12 @@
   font-size: large !important;
   text-decoration: none;
 }
-.button_link{
-  color: hsl(213deg 100% 25%)
+.button_link {
+  color: hsl(213deg 100% 25%);
 }
-.button_link::hover{
+.button_link::hover {
   text-decoration: none !important;
-  color: hsl(213deg 100% 25%)
+  color: hsl(213deg 100% 25%);
 }
 a:hover {
   color: hsl(211deg 100% 35%);
@@ -138,6 +142,9 @@ a:hover {
     width: 400px;
     height: 300px;
   }
+  .whatsapp {
+    top: 100vw;
+  }
 }
 
 @media (max-width: 500px) {
@@ -160,4 +167,8 @@ a:hover {
     width: 250px;
     height: 260px;
   }
+  .whatsapp {
+    top: 150vw;
+  }
+
 }

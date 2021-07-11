@@ -5,15 +5,22 @@ import Button from "@material-ui/core/Button";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import { Link } from "react-router-dom";
 import Flip from "react-reveal/Flip";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import MessengerCustomerChat from "react-messenger-customer-chat";
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
 
 function screen1() {
   return (
     <div className="div">
       <div className="inner-div">
-        <MessengerCustomerChat
-          pageId="100138961782035"
-        />
+        <MessengerCustomerChat pageId="100138961782035" />
+        <div className="whatsapp">
+          <WhatsAppWidget
+            phoneNumber="923212326812"
+            companyName="The Smart Solutions"
+            message="Hello, How we can help you?"
+          />
+        </div>
         <div className="text-div">
           <Typography variant="h2" className="Typo Typo1">
             The Smart Solutions
